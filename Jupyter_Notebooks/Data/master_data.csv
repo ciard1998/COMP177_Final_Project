@@ -1,0 +1,322 @@
+School Name,State,Longitude,Latitude,Starting Median Salary,Mid-Career Median Salary,Mid-Career 10th Percentile Salary,Mid-Career 25th Percentile Salary,Mid-Career 75th Percentile Salary,Mid-Career 90th Percentile Salary,1st,2nd,3rd,4th,5th
+Adelphi University,NY,-73.653321,40.721439,"$40,600 ","$79,200 ","$44,200 ","$54,800 ","$114,000 ","$160,000 ",Nursing,Biology,Business Management,Psychology,Nutrition
+"American University, Washington D.C.",DC,-77.088947,38.93694264,"$45,300 ","$90,800 ","$45,200 ","$62,400 ","$134,000 ","$169,000 ",International Relations,Business Management,Political Science,International Relations,Economics
+Amherst College,MA,-72.518493,42.372459,"$54,500 ","$107,000 ",,"$84,900 ","$162,000 ",,Math,Economics,English,Psychology,Political Science
+Appalachian State University,NC,-81.67752,36.2126825,"$40,400 ","$69,100 ","$37,200 ","$50,400 ","$90,800 ","$115,000 ",Psychology,Nutrition,Nursing,Business Management,Education
+Arizona State University (ASU),AZ,-111.928001,33.424564,"$47,400 ","$84,100 ","$44,600 ","$60,700 ","$114,000 ","$163,000 ",Business Management,Psychology,Biology,Finance,Marketing
+Arkansas State University (ASU),AR,-90.679586,35.841082,"$38,700 ","$63,300 ","$33,600 ","$45,300 ","$83,900 ","$118,000 ",Nursing,Business Management,Biology,Education,Nutrition
+Auburn University,AL,-85.492409,32.600201,"$45,400 ","$84,700 ","$45,400 ","$62,700 ","$109,000 ","$145,000 ",Biology,Mechanical Engineering,Business Management,Nutrition,Finance
+Austin Peay State University,TN,-87.354081,36.5333193,"$37,700 ","$59,200 ","$32,200 ","$40,500 ","$73,900 ","$96,200 ",Education,Nursing,Criminal Justice,Psychology,Business Management
+Ball State University (BSU),IN,-85.408777,40.19996994,"$39,100 ","$64,500 ","$35,500 ","$48,200 ","$89,300 ","$128,000 ",Communications,Psychology,Nursing,Business Management,Education
+Bates College,ME,-70.203333,44.10529918,"$47,300 ","$96,500 ",,"$60,700 ","$162,000 ",,Economics,Political Science,Psychology,Biology,Sociology
+Baylor University,TX,-97.118453,31.54614957,"$48,300 ","$88,600 ","$46,300 ","$60,700 ","$130,000 ","$200,000 ",Biology,Nursing,Accounting,Marketing,Business Management 
+Binghamton University,NY,-75.971143,42.088049,"$53,600 ","$95,900 ","$50,900 ","$71,200 ","$146,000 ","$201,000 ",Economics,Psychology,Biology,Accounting,Nursing
+Black Hills State University,SD,-103.871756,44.49514137,"$35,300 ","$43,900 ","$27,000 ","$32,200 ","$60,900 ","$87,600 ",Business Management,Education,Biology,Sociology,Communications
+Boise State University (BSU),ID,-116.205789,43.60440317,"$40,800 ","$69,500 ","$37,400 ","$48,700 ","$87,500 ","$110,000 ",Business Management,Nursing,Communications,Health Care Administration,Psychology
+Boston College,MA,-71.169242,42.33620322,"$52,700 ","$103,000 ","$48,900 ","$70,000 ","$143,000 ","$195,000 ",Economics,Finance,Psychology,Communications,Biology
+Boston University,MA,-71.09984,42.349581,"$49,000 ","$93,900 ","$48,000 ","$64,900 ","$130,000 ","$193,000 ",Business Management,Communications,Economics,Psychology,International Relations
+Bowdoin College,ME,-69.963942,43.907134,"$48,100 ","$107,000 ",,"$74,600 ","$146,000 ",,Political Science,Economics,Math,Biology,Computer Science
+Bowling Green State University,OH,-83.637531,41.377036,"$39,800 ","$72,100 ","$38,200 ","$51,800 ","$101,000 ","$146,000 ",Education,Biology,Psychology,English,Accounting
+Bradley University,IL,-89.616847,40.69823294,"$47,000 ","$87,300 ","$45,900 ","$64,900 ","$113,000 ","$151,000 ",Nursing,Mechanical Engineering,Accounting,Business Management,Civil Engineering
+Brigham Young University (BYU),UT,-111.6493,40.2518,"$49,400 ","$88,600 ","$50,600 ","$68,500 ","$119,000 ","$164,000 ",Psychology,Nutrition,Accounting,Economics,Education
+Brown University,RI,-71.402925,41.82685309,"$56,200 ","$109,000 ","$55,400 ","$74,400 ","$159,000 ","$228,000 ",Computer Science,Economics,Biology,Math,Political Science
+Bucknell University,PA,-76.885192,40.95370378,"$54,100 ","$110,000 ","$62,800 ","$80,600 ","$156,000 ","$251,000 ",Economics,Political Science,Psychology,Accounting,Biology
+Cal Poly San Luis Obispo,CA,-120.661597,35.30237596,"$57,200 ","$101,000 ","$55,000 ","$74,700 ","$133,000 ","$178,000 ",Business Management,Mechanical Engineering,Biology,Civil Engineering,Computer Science 
+California Institute of Technology (CIT),CA,-118.125567,34.13918094,"$75,500 ","$123,000 ",,"$104,000 ","$161,000 ",,Computer Science,Physics ,Electrical Engineering,Chemical Engineering,Mechanical Engineering 
+"California State University (CSU), Chico",CA,-121.846333,39.728003,"$47,400 ","$88,100 ","$46,800 ","$62,800 ","$122,000 ","$154,000 ",Business Management,Communications,Psychology,Health Care Administration,Education
+"California State University (CSU), Stanislaus",CA,-120.852511,37.52577,"$38,000 ","$71,400 ","$33,700 ","$50,500 ","$94,100 ","$121,000 ",Business Management,Psychology,Criminal Justice,Sociology,Education
+"California State University, Dominguez Hills (CSUDH)",CA,-118.258948,33.86528236,"$42,700 ","$72,100 ","$30,800 ","$47,000 ","$92,200 ","$132,000 ",Business Management,Psychology,Sociology,Criminal Justice,Health Care Administration
+"California State University, East Bay (CSUEB)",CA,-122.058073,37.65707038,"$49,200 ","$84,300 ","$46,000 ","$62,400 ","$115,000 ","$155,000 ",Business Management,Health Care Administration,Criminal Justice,Psychology,Sociology
+"California State University, Fullerton (CSUF)",CA,-117.885659,33.88326053,"$45,700 ","$87,000 ","$45,400 ","$62,500 ","$119,000 ","$158,000 ",Business Management,Communications,Psychology,Health Care Administration,Education
+"California State University, Long Beach (CSULB)",CA,-118.11204,33.78281817,"$45,100 ","$84,700 ","$47,400 ","$62,500 ","$113,000 ","$154,000 ",Business Management,Psychology,Communications,Sociology,Education
+"California State University, Northridge (CSUN)",CA,-118.529286,34.2400409,"$45,500 ","$80,400 ","$44,500 ","$57,800 ","$108,000 ","$153,000 ",Psychology,Business Management,Sociology,Education,Film
+"California State University, Sacramento (CSUS)",CA,-121.422416,38.55990059,"$47,800 ","$82,400 ","$42,900 ","$59,600 ","$111,000 ","$154,000 ",Business Management,Communications,Psychology,Criminal Justice,Education
+Carleton College,MN,-93.154662,44.46230352,"$47,500 ","$103,000 ",,"$69,400 ","$141,000 ",,Computer Science,Biology,International Relations,Economics,Math
+Carnegie Mellon University (CMU),PA,-79.943485,40.44359759,"$61,800 ","$111,000 ","$63,300 ","$80,100 ","$150,000 ","$209,000 ",Computer Science,Electrical Engineering,Math,Business Management,Mechanical Engineering
+Case Western Reserve University,OH,-81.604893,41.50409549,"$56,200 ","$96,500 ","$54,900 ","$76,500 ","$123,000 ","$168,000 ",Biology,Mechanical Engineering,Computer Science,Nursing,Psychology
+Clemson University,SC,-82.834463,34.677329,"$48,400 ","$86,000 ","$50,500 ","$61,800 ","$111,000 ","$150,000 ",Industrial Engineering,Business Management,Marketing,Biology,Psychology
+Cleveland State University,OH,-81.674355,41.50228136,"$43,500 ","$73,100 ","$39,500 ","$51,600 ","$97,000 ","$137,000 ",Psychology,Nursing,Business Management,Biology,Mechanical Engineering 
+Colby College,ME,-69.66337,44.56421114,"$46,400 ","$85,800 ",,"$63,500 ","$129,000 ",,Economics,Political Science,Math,Biology,Psychology
+Colgate University,NY,-75.535218,42.8181753,"$52,800 ","$108,000 ","$60,000 ","$76,700 ","$167,000 ","$265,000 ",Economics,Political Science,Psychology,English,Biology
+College of the Holy Cross,MA,-71.808627,42.23894237,"$50,200 ","$106,000 ",,"$65,600 ","$143,000 ",,Economics,Psychology,Political Science,History,English
+Colorado College (CC),CO,-104.822678,38.84885428,"$38,500 ","$81,400 ",,"$43,000 ","$148,000 ",,Economics,Political Science,Biology,Sociology,Physics
+Colorado School of Mines,CO,-105.222907,39.74909154,"$58,100 ","$106,000 ","$62,200 ","$87,900 ","$142,000 ","$201,000 ",Mechanical Engineering,Computer Science ,Chemical Engineering,Physics ,Electrical Engineering
+Colorado State University (CSU),CO,-105.0865,40.5734,"$44,800 ","$79,000 ","$43,800 ","$57,100 ","$112,000 ","$150,000 ",Business Management,Nutrition,Psychology,Mechanical Engineering,Communications
+Columbia University,NY,-73.961885,40.80828575,"$59,400 ","$107,000 ","$50,300 ","$71,900 ","$161,000 ","$241,000 ",Economics,Computer Science,Political Science,Psychology,History
+Cooper Union,NY,-73.990516,40.72937982,"$62,200 ","$114,000 ",,"$80,200 ","$142,000 ",,Graphic Design,Mechanical Engineering,Electrical Engineering,Chemical Engineering,Architecture
+Cornell University,NY,-76.476535,42.448713,"$60,300 ","$110,000 ","$56,800 ","$79,800 ","$160,000 ","$210,000 ",Biology,Computer Science,Business Management,Hospitality & Tourism,Agriculture
+Dallas Baptist University,TX,-96.946994,32.71010015,"$39,400 ","$60,200 ","$38,500 ","$50,300 ","$81,800 ","$98,100 ",Business Management,Biology,Psychology,Education,Finance
+Dartmouth College,NH,-71.9887,43.7044,"$58,000 ","$134,000 ","$63,100 ","$90,200 ","$234,000 ","$321,000 ",Economics,Political Science,Computer Science,Biology,History
+Davenport University,MI,-85.529655,42.84971259,"$39,700 ","$46,600 ","$31,600 ","$38,100 ","$65,600 ","$85,700 ",Nutrition,Business Management,Criminal Justice,Health Care Administration,Nursing
+Davidson College,NC,-80.845236,35.50000638,"$46,100 ","$104,000 ",,"$70,500 ","$146,000 ",,Political Science ,Economics,Biology,English,Psychology
+Denison University,OH,-82.520625,40.0725823,"$42,000 ","$83,500 ",,"$62,100 ","$122,000 ",,Accounting,Finance,International Relations,Psychology,Marketing
+DePaul University,IL,-87.654116,41.92333183,"$46,400 ","$84,800 ","$50,300 ","$63,900 ","$115,000 ","$160,000 ",Economics,Communications,English,Computer Science,Biology
+DePauw University,IN,-86.863556,39.63953025,"$41,400 ","$88,300 ","$49,500 ","$57,400 ","$133,000 ","$185,000 ",Economics,Communications,Biology,Psychology,History
+Dowling College,NY,-73.14491,40.73991,"$41,100 ","$82,800 ","$46,500 ","$60,600 ","$117,000 ","$142,000 ",Communications,Computer Science,Education,English,Math
+Drexel University,PA,-75.188745,39.95485501,"$53,400 ","$93,500 ","$54,900 ","$72,500 ","$122,000 ","$161,000 ",Nursing,Accounting,Mechanical Engineering,Marketing,Management Information Systems (MIS)
+Duke University,NC,-78.938597,36.00234351,"$58,900 ","$106,000 ","$56,000 ","$77,400 ","$149,000 ","$218,000 ",Computer Science,Economics,International Relations,Biology,Psychology
+Duquesne University,PA,-79.993046,40.437496,"$40,700 ","$84,400 ","$42,600 ","$59,500 ","$107,000 ","$131,000 ",Nursing,Marketing,Biology,Finance,Accounting
+East Carolina University (ECU),NC,-77.366199,35.606347,"$40,200 ","$67,500 ","$38,400 ","$52,000 ","$98,700 ","$151,000 ",Communications,Nursing,Education,Business Management,Criminal Justice
+Eastern Michigan University,MI,-83.625156,42.250277,"$40,300 ","$72,100 ","$37,900 ","$52,800 ","$95,400 ","$135,000 ",Nursing,Psychology,Business Management,Communications,Education
+Eastern Washington University,WA,-117.589371,47.49129315,"$38,600 ","$70,900 ","$36,000 ","$50,500 ","$93,100 ","$117,000 ",Business Management,Biology,Psychology,Communications,Criminal Justice
+Embry-Riddle Aeronautical University (ERAU),FL,-81.04951,29.18926994,"$52,700 ","$80,700 ","$49,800 ","$64,000 ","$106,000 ","$142,000 ",Business Management,Nursing,Biology,Economics,Psychology
+Emory University,GA,-84.325818,33.79326806,"$52,000 ","$91,600 ","$52,500 ","$63,300 ","$128,000 ","$192,000 ",Biology,Business Management,Film ,Psychology,English
+Evergreen State College,WA,-122.977492,47.07381966,"$39,500 ","$63,900 ","$38,800 ","$47,200 ","$91,600 ","$120,000 ",Psychology,Nursing,Criminal Justice,Business Management,Biology
+Fairleigh Dickinson University,NJ,-74.435359,40.77736403,"$45,700 ","$78,700 ","$40,200 ","$56,300 ","$112,000 ","$171,000 ",Business Management,Marketing,Graphic Design,Interior Design,Art History
+Fashion Institute of Technology,NY,-73.994781,40.74730956,"$42,800 ","$81,000 ","$38,800 ","$60,500 ","$106,000 ","$138,000 ",Business Management,Nursing,Film,Biology,Psychology
+Fitchburg State College,MA,-71.789354,42.58934514,"$42,400 ","$72,600 ","$43,300 ","$56,100 ","$99,600 ","$151,000 ",Psychology,Biology,Criminal Justice,Business Management,Accounting
+Florida Atlantic University (FAU),FL,-80.102978,26.37242138,"$42,600 ","$71,100 ","$40,700 ","$53,000 ","$99,500 ","$137,000 ",Psychology,Communications,Biology,Hospitality & Tourism,Finance
+Florida International University (FIU),FL,-80.377591,25.75711094,"$43,200 ","$75,500 ","$40,500 ","$55,800 ","$98,200 ","$136,000 ",Accounting,Business Management,Criminal Justice,Computer Science,International Relations
+Florida Metropolitan University (FMU),FL,-80.11431,26.13869,"$36,600 ","$51,000 ","$32,800 ","$36,800 ","$70,400 ","$102,000 ",Psychology,Finance,Marketing,Criminal Justice,English
+Florida State University (FSU),FL,-84.301554,30.443222,"$42,100 ","$73,000 ","$39,600 ","$52,800 ","$107,000 ","$156,000 ",Communications,Economics,Business Management,Finance,Psychology
+Fordham University,NY,-73.889899,40.8614117,"$47,800 ","$99,900 ","$48,600 ","$65,900 ","$142,000 ","$198,000 ",Business Management,Nutrition,Biology,Psychology,Art History
+Fort Lewis College,CO,-107.867003,37.27542817,"$42,000 ","$69,800 ",,"$55,000 ","$94,000 ",,Business Management,Political Science,Economics,Psychology,Biology
+Franklin and Marshall College,PA,-76.319037,40.048045,"$49,100 ","$92,800 ",,"$55,800 ","$185,000 ",,Psychology,Criminal Justice,Accounting,Information Technology (IT),Biology
+George Mason University,VA,-77.30794,38.83088029,"$47,800 ","$86,900 ","$51,300 ","$67,200 ","$114,000 ","$150,000 ",International Relations,Political Science,Nursing,Economics,Finance
+George Washington University (GWU),DC,-77.046277,38.8990964,"$47,000 ","$97,900 ","$48,400 ","$69,600 ","$132,000 ","$194,000 ",Political Science ,International Relations,Finance,Economics,Psychology
+Georgetown University,DC,-77.073463,38.90880927,"$55,000 ","$110,000 ","$60,300 ","$85,800 ","$174,000 ","$248,000 ",Information Technology (IT),Mechanical Engineering,Business Management,Industrial Engineering,Chemical Engineering
+Georgia Institute of Technology,GA,-84.396019,33.77373183,"$58,300 ","$106,000 ","$67,200 ","$85,200 ","$137,000 ","$183,000 ",Psychology,Finance,Biology,Marketing,Journalism
+Georgia State University,GA,-84.38667,33.75269954,"$41,800 ","$74,000 ","$43,000 ","$55,300 ","$99,900 ","$145,000 ",Economics,Political Science,Business Management,Nutrition,Psychology
+Gettysburg College,PA,-77.234533,39.83584149,"$44,700 ","$85,800 ",,"$66,300 ","$132,000 ",,Business Management,Biology,Mechanical Engineering ,Psychology,Accounting
+Gonzaga University,WA,-117.403062,47.668144,"$44,900 ","$76,000 ","$47,000 ","$57,400 ","$103,000 ","$138,000 ",Economics,Computer Science ,Political Science,Biology,Psychology
+Grinnell College,IA,-92.721432,41.74636255,"$42,600 ","$76,600 ",,"$65,100 ","$116,000 ",,Psychology,Business Management,Biology,Economics,Political Science 
+Gustavus Adolphus College,MN,-93.971928,44.324968,"$44,500 ","$80,600 ",,"$49,300 ","$101,000 ",,Economics,Math,Political Science,International Relations,Biology
+Hamilton College,NY,-75.407996,43.05424753,"$49,200 ","$83,700 ",,"$51,900 ","$123,000 ",,Economics,Computer Science,Political Science,History,Sociology
+Harvard University,MA,-71.118234,42.37417202,"$63,400 ","$124,000 ","$54,800 ","$86,200 ","$179,000 ","$288,000 ",Mechanical Engineering,Computer Science,Physics,Math,Chemistry
+Harvey Mudd College,CA,-117.709758,34.10571676,"$71,800 ","$122,000 ",,"$96,000 ","$180,000 ",,Drama,Psychology,Marketing,Business Management,Finance
+Hofstra University,NY,-73.60078,40.71595869,"$46,800 ","$92,700 ","$48,900 ","$67,000 ","$135,000 ","$189,000 ",Biology,International Relations,Political Science,Communications,Psychology
+Howard University,DC,-77.019478,38.92073881,"$46,900 ","$81,800 ","$43,300 ","$60,000 ","$109,000 ","$138,000 ",Biology,Business Management,Psychology,Education,Forestry
+Humboldt State University,CA,-124.077255,40.87545198,"$42,600 ","$71,300 ","$36,000 ","$56,300 ","$94,400 ","$117,000 ",Nursing,Business Management,Health Care Administration,Education,Psychology
+Idaho State University,ID,-112.429084,42.86410777,"$44,900 ","$73,400 ","$35,400 ","$49,600 ","$101,000 ","$143,000 ",Architecture,Mechanical Engineering,Electrical Engineering,Computer Science,Information Technology (IT)
+Illinois Institute of Technology (IIT),IL,-87.628346,41.83380065,"$56,000 ","$97,800 ","$56,100 ","$77,400 ","$121,000 ","$165,000 ",Finance,Marketing,Agriculture,Accounting,Management Information Systems (MIS)
+Illinois State University,IL,-88.99234,40.50972361,"$42,000 ","$73,400 ","$39,100 ","$55,200 ","$105,000 ","$142,000 ",Business Management,Management Information Systems (MIS),Computer Science,Nutrition,Biology
+"Indiana University (IU), Bloomington",IN,-86.523585,39.16773929,"$46,300 ","$84,000 ","$43,600 ","$60,400 ","$119,000 ","$178,000 ",Nursing,Liberal Arts,Business Management,Religion,Education
+Indiana Wesleyan University (IWU),IN,-85.677881,40.5112,"$39,800 ","$58,500 ","$39,600 ","$47,800 ","$78,600 ","$93,400 ",Mechanical Engineering,Agriculture,Nutrition,Marketing,Finance
+Iowa State University,IA,-93.65024,42.025303,"$45,400 ","$84,600 ","$44,400 ","$60,000 ","$109,000 ","$147,000 ",Business Management,Drama,Film,Journalism,Communications
+Ithaca College,NY,-76.495057,42.42263969,"$42,700 ","$87,400 ","$50,200 ","$62,400 ","$128,000 ","$174,000 ",Nursing,Nutrition,Management Information Systems (MIS),Business Management,Sociology
+Jacksonville University,FL,-81.606507,30.35084316,"$46,700 ","$66,200 ","$36,700 ","$47,200 ","$88,500 ","$121,000 ",Nursing,Business Management,Communications,Psychology,Accounting
+Juniata College,PA,-78.015158,40.49949291,"$41,800 ","$78,900 ",,"$67,200 ","$110,000 ",,Business Management,Mechanical Engineering,Finance,Marketing,Education
+Kansas State University (KSU),KS,-96.581077,39.188616,"$43,300 ","$79,000 ","$37,200 ","$54,100 ","$106,000 ","$138,000 ",Nursing,Psychology,Business Management,Marketing,Communications
+Kent State University,OH,-81.337128,41.151603,"$38,700 ","$62,600 ","$36,100 ","$45,800 ","$87,000 ","$124,000 ",Nursing,Psychology,Marketing,Communications,Finance
+La Salle University (Philadelphia),PA,-75.151926,40.03867306,"$43,400 ","$84,700 ","$45,300 ","$57,500 ","$106,000 ","$151,000 ",Economics,Political Science,Mechanical Engineering,Psychology,International Relations
+Lafayette College,PA,-75.211342,40.69951263,"$53,900 ","$107,000 ","$70,600 ","$79,300 ","$144,000 ","$204,000 ",Nursing,Business Management,Criminal Justice,Mechanical Engineering,Chemical Engineering
+Lamar University,TX,-94.073389,30.044274,"$46,500 ","$79,400 ","$38,700 ","$51,600 ","$114,000 ","$158,000 ",Business Management,Education,Mechanical Engineering ,Aerospace Engineering,Civil Engineering
+"Lee University (Cleveland, TN)",TN,-84.870018,35.16616609,"$34,500 ","$53,900 ",,"$44,500 ","$76,800 ",,Business Management,Psychology,Religion,Nutrition,Communications
+Lehigh University,PA,-75.377095,40.6066257,"$59,200 ","$105,000 ","$69,500 ","$85,000 ","$160,000 ","$229,000 ",Finance,Mechanical Engineering,Computer Science,Accounting,Marketing
+LeTourneau University,TX,-94.72726,32.46765824,"$49,500 ","$73,800 ","$41,200 ","$52,700 ","$95,200 ","$126,000 ",Psychology,Biology,International Relations,English,Sociology
+Lewis & Clark College,OR,-122.670337,45.45153924,"$38,900 ","$72,600 ","$38,200 ","$53,400 ","$104,000 ","$140,000 ",Nursing,Business Management,Nutrition,Psychology,Biology
+Long Island University,NY,-73.5901,40.8172,"$47,300 ","$93,200 ","$46,300 ","$62,100 ","$122,000 ","$169,000 ",Communications,Biology,Education,Business Management,Marketing
+Louisiana State University (LSU),LA,-91.18,30.4133,"$46,900 ","$87,800 ","$43,700 ","$61,300 ","$120,000 ","$165,000 ",Finance,Nursing,Biology,Marketing,Psychology
+Marquette University,WI,-87.931088,43.03718292,"$48,500 ","$88,400 ","$49,500 ","$67,400 ","$121,000 ","$184,000 ",Computer Science,Mechanical Engineering,Math,Physics,Electrical Engineering
+Massachusetts Institute of Technology (MIT),MA,-71.092115,42.36009534,"$72,200 ","$126,000 ","$76,800 ","$99,200 ","$168,000 ","$220,000 ",Business Management,Sociology,Health Care Administration,Psychology,Criminal Justice
+Mercy College,NY,-73.874571,41.02143627,"$43,700 ","$62,600 ","$35,600 ","$47,300 ","$99,000 ","$134,000 ",Marketing,Communications,Economics,Biology,Finance
+Michigan State University (MSU),MI,-84.473639,42.72476,"$46,300 ","$85,300 ","$44,200 ","$61,500 ","$119,000 ","$170,000 ",Economics,Political Science,Computer Science,Psychology,International Relations
+Middlebury College,VT,-73.176068,44.009117,"$47,700 ","$94,200 ",,"$69,100 ","$129,000 ",,Nursing,Communications,Psychology,Business Management,Marketing
+Minnesota State University - Mankato,MN,-93.998494,44.147253,"$43,300 ","$74,700 ","$39,500 ","$53,800 ","$95,700 ","$140,000 ",Nursing,Biology,Nutrition,Accounting,Education
+Mississippi College,MS,-90.330452,32.33456492,"$35,400 ","$60,400 ",,"$43,900 ","$80,400 ",,Nutrition,Business Management,Mechanical Engineering ,Communications,Marketing
+Mississippi State University (MSU),MS,-88.790826,33.451697,"$44,500 ","$79,300 ","$43,300 ","$58,800 ","$108,000 ","$151,000 ",Business Management,Psychology,Education,Communications,Marketing
+Missouri State University (MSU),MO,-93.2807,37.2006,"$36,100 ","$69,500 ","$33,300 ","$46,900 ","$102,000 ","$134,000 ",Business Management,Education,Nursing,Criminal Justice,Management Information Systems (MIS)
+Montana State University - Billings,MT,-108.523009,45.79689588,"$37,900 ","$50,600 ",,"$31,800 ","$78,500 ",,Business Management,Nursing,Mechanical Engineering ,Chemical Engineering,Biology
+Montana State University - Bozeman,MT,-111.0546,45.6674,"$46,600 ","$77,500 ","$40,200 ","$58,100 ","$111,000 ","$151,000 ",Nursing,Business Management,Psychology,Economics,Sociology
+Moravian College,PA,-75.380979,40.63088812,"$42,500 ","$74,400 ",,"$56,700 ","$94,900 ",,Nursing,Education,Business Management,Agriculture,Accounting
+Morehead State University,KY,-83.429742,38.188462,"$34,800 ","$60,600 ","$34,300 ","$46,500 ","$72,000 ","$91,300 ",Economics,Computer Science,Biology,Psychology,English
+Mount Holyoke College,MA,-72.573625,42.25758777,"$42,400 ","$94,200 ",,"$57,100 ","$131,000 ",,Mechanical Engineering,Chemical Engineering,Computer Science,Electrical Engineering,Biology
+New Mexico Institute of Mining and Technology (New Mexico Tech),NM,-106.907701,34.06618984,"$51,000 ","$93,400 ",,"$67,400 ","$123,000 ",,Business Management,Nursing,Criminal Justice,Mechanical Engineering,Marketing
+New Mexico State University,NM,-106.747841,32.282875,"$44,300 ","$79,500 ","$37,400 ","$53,800 ","$102,000 ","$131,000 ",Economics,Business Management,Nursing,Film,Drama
+New York University (NYU),NY,-73.997264,40.7294519,"$50,300 ","$95,600 ","$47,500 ","$65,000 ","$142,000 ","$216,000 ",Business Management,Nursing,Criminal Justice,Accounting,Information Technology (IT)
+Niagara University,NY,-79.036689,43.137279,"$36,900 ","$69,700 ","$44,000 ","$57,000 ","$92,000 ","$128,000 ",Business Management,Biology,Mechanical Engineering ,Communications,Psychology
+North Carolina State University (NCSU),NC,-78.674517,35.78511061,"$47,200 ","$83,300 ","$49,200 ","$64,800 ","$112,000 ","$153,000 ",Nursing,Mechanical Engineering,Business Management,Psychology,Agriculture
+North Dakota State University (NDSU),ND,-96.805689,46.89452277,"$45,100 ","$77,800 ","$39,000 ","$55,800 ","$100,000 ","$123,000 ",Business Management,Economics,Mechanical Engineering,Information Technology (IT),Communications
+Northeastern University,MA,-71.088069,42.34018276,"$50,500 ","$86,400 ","$47,100 ","$62,700 ","$117,000 ","$159,000 ",Accounting,Communications,Psychology,Health Care Administration,Nursing
+Northern Illinois University (NIU),IL,-88.766065,41.93379093,"$43,600 ","$80,800 ","$43,900 ","$60,200 ","$111,000 ","$161,000 ",Economics,Psychology,Journalism,Biology,Political Science 
+Northwestern University,IL,-87.673653,42.05837717,"$52,700 ","$95,900 ","$51,900 ","$69,100 ","$144,000 ","$205,000 ",Music,Political Science,Biology,Economics,Psychology
+Oberlin College,OH,-82.221786,41.29473992,"$43,400 ","$81,600 ",,"$46,400 ","$128,000 ",,Economics,International Relations,Biology,Math,Sociology
+Occidental College,CA,-118.210783,34.1262239,"$51,900 ","$105,000 ",,"$54,800 ","$157,000 ",,Finance,Psychology,Communications,Marketing,Accounting
+Ohio State University (OSU),OH,-83.008792,39.99949343,"$44,900 ","$83,700 ","$45,500 ","$60,700 ","$116,000 ","$162,000 ",Nursing,Business Management,Communications,Marketing,Journalism
+Ohio University,OH,-82.103503,39.323839,"$42,200 ","$73,400 ","$36,600 ","$52,800 ","$106,000 ","$150,000 ",Nursing,Music,Drama,Film,Business Management
+Oklahoma City University,OK,-97.541242,35.49527098,"$40,000 ","$64,300 ",,"$45,400 ","$80,600 ",,Business Management,Marketing,Mechanical Engineering ,Finance,Accounting
+Oklahoma State University,OK,-97.069743,36.12308498,"$42,800 ","$80,700 ","$40,100 ","$56,500 ","$114,000 ","$151,000 ",Computer Science,Business Management,Mechanical Engineering ,Psychology,Biology
+Oregon State University (OSU),OR,-123.278711,44.563109,"$45,100 ","$83,300 ","$46,900 ","$64,000 ","$113,000 ","$146,000 ",Business Management,Nursing,Communications,Finance,Accounting
+Pace University,NY,-74.004874,40.71170978,"$53,200 ","$89,700 ","$44,200 ","$65,400 ","$129,000 ","$187,000 ",Business Management,Psychology,Criminal Justice,Information Technology (IT),Management Information Systems (MIS)
+Park University,MO,-94.677086,39.18947692,"$44,300 ","$64,300 ","$37,200 ","$45,600 ","$86,400 ","$113,000 ",Mechanical Engineering,Civil Engineering,Information Technology (IT),Accounting,Criminal Justice
+Penn State - Harrisburg,PA,-76.741961,40.20523447,"$45,700 ","$74,000 ","$44,000 ","$53,100 ","$104,000 ","$150,000 ",Information Technology (IT),Biology,Economics,Finance,Mechanical Engineering
+Pennsylvania State University (PSU),PA,-77.861644,40.800732,"$49,900 ","$85,700 ","$46,300 ","$62,000 ","$117,000 ","$160,000 ",Architecture,Business Management,Health Care Administration,Graphic Design,Art History
+Philadelphia University,PA,-75.1927,40.0197,"$45,100 ","$80,300 ","$45,800 ","$61,900 ","$108,000 ","$141,000 ",Nursing,Education,Business Management,Psychology,Communications
+Pittsburg State University,KS,-94.702483,37.39205667,"$40,400 ","$58,200 ","$25,600 ","$46,000 ","$84,600 ","$117,000 ",Mechanical Engineering,Electrical Engineering,Computer Science,Physics,Chemical Engineering
+"Polytechnic University of New York, Brooklyn",NY,-73.9866,40.6942,"$62,400 ","$114,000 ","$66,800 ","$94,300 ","$143,000 ","$190,000 ",Economics,Math,Computer Science,Psychology,Physics
+Pomona College,CA,-117.711944,34.09829827,"$48,600 ","$101,000 ",,"$63,300 ","$161,000 ",,Health Care Administration,Psychology,Business Management,Sociology,Marketing
+Portland State University (PSU),OR,-122.684197,45.51169772,"$42,600 ","$70,900 ","$40,700 ","$52,300 ","$94,400 ","$123,000 ",Architecture,Graphic Design,Interior Design,Art History,Film
+Pratt Institute,NY,-73.962149,40.69115429,"$43,800 ","$89,900 ","$48,600 ","$65,400 ","$123,000 ","$155,000 ",Computer Engineering,Economics,History,Political Science,Biology
+Princeton University,NJ,-74.657698,40.34714142,"$66,500 ","$131,000 ","$68,900 ","$100,000 ","$190,000 ","$261,000 ",Finance,Business Management,Marketing,Biology,Psychology
+Providence College,RI,-71.437906,41.84419284,"$48,000 ","$88,600 ","$42,800 ","$62,900 ","$138,000 ","$194,000 ",Business Management,Mechanical Engineering,Computer Science,Industrial Engineering,Math
+Purdue University,IN,-86.914435,40.428206,"$51,400 ","$90,500 ","$49,900 ","$67,400 ","$121,000 ","$168,000 ",Health Care Administration,Nursing,Business Management,Finance,Psychology
+Quinnipiac University,CT,-72.894115,41.41890787,"$43,000 ","$76,500 ","$47,900 ","$57,400 ","$117,000 ","$155,000 ",Business Management,Biology,Communications,Psychology,Political Science 
+Randolph-Macon College,VA,-77.4781,37.76078507,"$42,600 ","$83,600 ",,"$54,100 ","$123,000 ",,Psychology,Biology,English,Physics ,History
+Reed College,OR,-122.630348,45.48095914,"$40,500 ","$81,100 ",,"$67,400 ","$101,000 ",,Nursing,Business Management,Computer Science,Accounting,Communications
+Regis University,CO,-105.030756,39.78817522,"$48,300 ","$73,800 ","$41,000 ","$55,500 ","$94,800 ","$117,000 ",Computer Science,Mechanical Engineering,Chemical Engineering,Electrical Engineering,Business Management
+Rensselaer Polytechnic Institute (RPI),NY,-73.678768,42.72898349,"$61,100 ","$110,000 ","$71,600 ","$85,500 ","$140,000 ","$182,000 ",Economics,Information Technology (IT),Chemical Engineering,Nutrition,Mechanical Engineering 
+Rice University,TX,-95.404977,29.71621847,"$64,000 ","$110,000 ","$55,900 ","$82,100 ","$141,000 ","$216,000 ",Business Management,Psychology,Accounting,Education,Finance
+Rider University,NJ,-74.736978,40.28049488,"$43,600 ","$88,900 ","$47,100 ","$63,100 ","$127,000 ","$150,000 ",Nursing,Accounting,Business Management,Computer Science,Finance
+Robert Morris College (RMC),PA,-80.211585,40.52067902,"$38,500 ","$68,200 ","$37,300 ","$47,100 ","$95,000 ","$128,000 ",Mechanical Engineering,Computer Science,Electrical Engineering,Computer Engineering,Civil Engineering
+Rochester Institute of Technology (RIT),NY,-77.673854,43.08443583,"$48,900 ","$84,600 ","$45,000 ","$62,100 ","$112,000 ","$159,000 ",Criminal Justice,Marketing,Psychology,Architecture,Business Management
+Roger Williams University,RI,-71.260561,41.64820868,"$42,000 ","$72,300 ","$39,800 ","$48,500 ","$102,000 ","$138,000 ",Information Technology (IT),Psychology,Economics,Biology,Nursing
+Rutgers University,NJ,-74.447007,40.49953534,"$50,300 ","$91,800 ","$48,100 ","$65,100 ","$128,000 ","$176,000 ",Nursing,Business Management,Marketing,Psychology,Finance
+Sacred Heart University,CT,-73.24461,41.22154751,"$46,000 ","$75,300 ","$39,700 ","$54,800 ","$105,000 ","$150,000 ",Business Management,Criminal Justice,Psychology,Health Care Administration,Accounting
+Saint Leo University,FL,-82.257794,28.33678314,"$40,900 ","$57,800 ","$34,400 ","$41,800 ","$80,600 ","$113,000 ",Business Management,Psychology,Education,Criminal Justice,Communications
+San Diego State University (SDSU),CA,-117.071228,32.7752498,"$46,200 ","$85,200 ","$45,500 ","$61,800 ","$116,000 ","$158,000 ",Business Management,Biology,Psychology,Communications,Criminal Justice
+San Francisco State University (SFSU),CA,-122.477905,37.72134502,"$47,300 ","$86,400 ","$45,100 ","$62,700 ","$114,000 ","$150,000 ",Business Management,Psychology,Education,Communications,Computer Science 
+San Jose State University (SJSU),CA,-121.880459,37.33750869,"$53,500 ","$95,600 ","$50,700 ","$70,500 ","$122,000 ","$156,000 ",Nursing,Finance,Marketing,Psychology,Accounting
+Seattle University,WA,-122.3197,47.6101379,"$48,300 ","$82,800 ","$50,600 ","$62,400 ","$110,000 ","$150,000 ",Biology,Nursing,Marketing,Finance,International Relations
+Seton Hall University,NJ,-74.248753,40.74285935,"$48,900 ","$89,200 ","$55,700 ","$70,600 ","$133,000 ","$195,000 ",Marketing,Accounting,Psychology,Finance,Biology
+Siena College,NY,-73.751027,42.71862178,"$45,500 ","$85,200 ","$38,700 ","$58,400 ","$129,000 ","$189,000 ",Business Management,English,Psychology,Political Science,Economics
+Skidmore College,NY,-73.785322,43.09702687,"$41,600 ","$74,600 ",,"$42,800 ","$147,000 ",,Political Science,Psychology,Economics,Biology,English
+Smith College,MA,-72.638094,42.317933,"$44,000 ","$83,900 ","$45,100 ","$59,800 ","$129,000 ","$184,000 ",Mechanical Engineering,Civil Engineering,Chemical Engineering,Industrial Engineering,Electrical Engineering
+South Dakota School of Mines & Technology,SD,-103.205753,44.07543935,"$55,800 ","$93,400 ","$71,500 ","$81,900 ","$122,000 ","$147,000 ",Business Management,Psychology,Education,Criminal Justice,Communications
+South Dakota State University (SDSU),SD,-96.783415,44.31942,"$41,100 ","$73,500 ","$34,100 ","$49,900 ","$99,400 ","$129,000 ",Nursing,Business Management,Psychology,Biology,Criminal Justice
+Southern Illinois University Carbondale,IL,-89.221214,37.717389,"$43,000 ","$72,500 ","$38,300 ","$51,300 ","$99,300 ","$139,000 ",Education,Nursing,Biology,Psychology,Accounting
+Southern Utah University,UT,-113.070146,37.674617,"$41,900 ","$56,500 ",,"$39,700 ","$78,400 ",,Communications,Business Management,Marketing,Finance,Criminal Justice
+St. Cloud State University,MN,-94.152657,45.5532272,"$41,800 ","$71,400 ","$38,700 ","$49,400 ","$101,000 ","$126,000 ",Biology,Communications,Finance,Criminal Justice,Physician Assistant
+"St. John's University, New York",NY,-73.795027,40.72202659,"$48,000 ","$93,400 ","$48,000 ","$65,400 ","$124,000 ","$181,000 ",Biology,Math,Economics,Psychology,Chemistry 
+St. Olaf College,MN,-93.183318,44.46195598,"$45,300 ","$86,200 ","$41,300 ","$61,000 ","$120,000 ","$185,000 ",Computer Science,Biology,Mechanical Engineering ,Economics,Psychology
+Stanford University,CA,-122.175045,37.4329738,"$70,400 ","$129,000 ","$68,400 ","$93,100 ","$184,000 ","$257,000 ",Biology,Psychology,Business Management,Economics,English
+State University of New York (SUNY) at Albany,NY,-73.825014,42.68691742,"$44,500 ","$92,200 ","$47,000 ","$63,100 ","$135,000 ","$209,000 ",Business Management,Psychology,Sociology,Communications,Mechanical Engineering
+State University of New York (SUNY) at Buffalo,NY,-78.880684,42.93369956,"$46,200 ","$81,700 ","$45,900 ","$61,400 ","$110,000 ","$147,000 ",Business Management,Criminal Justice,Computer Science,Nursing,Biology
+State University of New York (SUNY) at Farmingdale,NY,-73.4267,40.753,"$47,300 ","$84,200 ","$50,200 ","$59,800 ","$110,000 ","$162,000 ",Business Management,Psychology,Criminal Justice,International Relations,Information Technology (IT)
+State University of New York (SUNY) at Fredonia,NY,-79.3404,42.4539,"$37,800 ","$66,200 ","$32,800 ","$44,200 ","$93,300 ","$181,000 ",Psychology,Biology,Communications,Business Management,Accounting
+State University of New York (SUNY) at Geneseo,NY,-77.821999,42.79686373,"$42,300 ","$81,300 ","$39,300 ","$47,600 ","$117,000 ","$173,000 ",Communications,Economics,Psychology,Biology,Education
+State University of New York (SUNY) at Oneonta,NY,-75.064,42.4695,"$37,500 ","$76,700 ","$40,000 ","$54,300 ","$97,700 ","$155,000 ",Business Management,Psychology,Drama,Education,Marketing
+State University of New York (SUNY) at Oswego,NY,-76.543885,43.45377044,"$38,000 ","$77,800 ","$40,400 ","$53,000 ","$115,000 ","$169,000 ",Business Management,Psychology,Criminal Justice,Nursing,Communications
+State University of New York (SUNY) at Plattsburgh,NY,-73.466657,44.69308772,"$40,800 ","$76,200 ","$38,400 ","$54,100 ","$105,000 ","$136,000 ",Business Management,Psychology,Education,Biology,Communications
+State University of New York (SUNY) at Potsdam,NY,-74.976889,44.662862,"$38,000 ","$70,300 ","$35,100 ","$51,200 ","$100,000 ","$179,000 ",Mechanical Engineering,Computer Science,Business Management,Chemical Engineering,Civil Engineering
+Stevens Institute of Technology,NJ,-74.025334,40.744776,"$60,600 ","$105,000 ","$68,700 ","$81,900 ","$138,000 ","$185,000 ",Nutrition,Psychology,Business Management,Math,Biology
+Stony Brook University,NY,-73.12112,40.91554,"$49,500 ","$93,000 ","$47,200 ","$67,100 ","$129,000 ","$181,000 ",Finance,Marketing,Business Management,Communications,Accounting
+Suffolk University,MA,-71.060985,42.35801021,"$42,100 ","$74,000 ","$48,700 ","$57,800 ","$95,100 ","$145,000 ",Economics,Political Science,Biology,Math,Education
+Swarthmore College,PA,-75.351639,39.90598596,"$49,700 ","$104,000 ",,"$67,200 ","$167,000 ",,Information Technology (IT),Psychology,Economics,Finance,Drama
+Syracuse University,NY,-76.13267,43.039891,"$45,700 ","$85,900 ","$46,400 ","$59,400 ","$119,000 ","$178,000 ",Business Management,Nursing,Psychology,Nutrition,Agriculture
+Tarleton State University (TSU),TX,-98.22008,32.21566501,"$40,800 ","$62,400 ","$32,100 ","$47,400 ","$80,400 ","$126,000 ",Mechanical Engineering,Education,Business Management,Nursing,Education
+Tennessee Technological University,TN,-85.503957,36.17465917,"$46,200 ","$80,000 ","$42,100 ","$62,600 ","$99,500 ","$121,000 ",Agriculture,Nutrition,Psychology,Biology,Business Management 
+Texas A&M University,TX,-97.774883,31.0531369,"$49,700 ","$96,100 ","$51,100 ","$71,300 ","$131,000 ","$171,000 ",Nursing,Communications,Finance,Economics,Marketing
+Texas Christian University (TCU),TX,-97.361537,32.70956756,"$45,100 ","$78,100 ","$42,600 ","$56,600 ","$122,000 ","$183,000 ",Criminal Justice,Psychology,Business Management,Education,Biology
+Thomas Aquinas College,CA,-119.087141,34.429009,"$41,500 ","$67,500 ",,"$44,600 ","$93,100 ",,Finance,Business Management,Marketing,Health Care Administration,Economics
+Tulane University,LA,-90.120409,29.93969617,"$49,100 ","$95,800 ","$46,500 ","$64,400 ","$134,000 ","$185,000 ",Business Management,Psychology,Nursing,Nutrition,Education
+Tusculum College,TN,-82.761716,36.17255833,"$36,900 ","$55,500 ","$36,200 ","$43,000 ","$87,300 ","$124,000 ",Economics,Biology,Mechanical Engineering,Political Science,Psychology
+Union College,KY,-83.887768,36.86913017,"$47,200 ","$95,800 ","$48,700 ","$75,200 ","$135,000 ","$230,000 ",Economics,Math,Biology,International Relations,Political Science 
+University of Akron,OH,-81.5114,41.077,"$41,100 ","$70,300 ","$40,600 ","$53,300 ","$95,200 ","$127,000 ",Business Management,Psychology,Marketing,Nursing,Finance
+University of Alabama at Birmingham (UAB),AL,-86.80917,33.50223,"$39,200 ","$70,100 ","$43,000 ","$53,400 ","$91,400 ","$125,000 ",Nursing,Business Management,Mechanical Engineering ,Psychology,Marketing
+University of Alabama at Huntsville (UAH),AL,-86.6398,34.7251,"$43,100 ","$82,700 ","$46,100 ","$67,800 ","$106,000 ","$132,000 ",Nursing,Business Management,Psychology,Health Care Administration,Biology
+"University of Alabama, Tuscaloosa",AL,-87.5391,33.214,"$41,300 ","$81,400 ","$40,100 ","$56,500 ","$117,000 ","$161,000 ",Nursing,Mechanical Engineering,Business Management,Information Technology (IT),Accounting
+"University of Alaska, Anchorage",AK,-149.8196,61.191,"$45,900 ","$72,600 ","$39,800 ","$56,600 ","$99,300 ","$137,000 ",Finance,Business Management,Marketing,Nursing,Accounting
+University of Arizona,AZ,-110.950086,32.23286613,"$47,500 ","$86,100 ","$44,800 ","$61,700 ","$117,000 ","$160,000 ",Nursing,Accounting,Psychology,Business Management,Mechanical Engineering 
+University of Arkansas,AR,-94.177852,36.06564171,"$44,100 ","$82,800 ","$43,200 ","$60,700 ","$113,000 ","$160,000 ",Psychology,Biology,Communications,Health Care Administration,Economics
+University of Arkansas - Monticello (UAM),AR,-91.8136,33.5918,"$39,200 ","$74,500 ",,"$46,100 ","$110,000 ",,Nursing,Finance,Marketing,Biology,Education
+University of California at Los Angeles (UCLA),CA,-118.443901,34.0688923,"$52,600 ","$101,000 ","$51,300 ","$72,500 ","$139,000 ","$193,000 ",Nursing,Education,Construction,Business Management,Management Information Systems (MIS)
+"University of California, Berkeley",CA,-122.24851,37.875759,"$59,900 ","$112,000 ","$59,500 ","$81,000 ","$149,000 ","$201,000 ",Economics,Political Science,Sociology,Biology,Psychology
+"University of California, Davis",CA,-121.75103,38.53820558,"$52,300 ","$99,600 ","$52,000 ","$71,600 ","$135,000 ","$202,000 ",Economics,Computer Science ,Biology,Political Science,Business Management 
+"University of California, Irvine (UCI)",CA,-117.837785,33.643163,"$48,300 ","$96,700 ","$47,800 ","$66,000 ","$123,000 ","$172,000 ",Psychology,Economics,Computer Science,Communications,Biology
+"University of California, Riverside (UCR)",CA,-117.328766,33.9745475,"$46,800 ","$81,300 ","$37,200 ","$59,900 ","$109,000 ","$134,000 ",Psychology,Biology,Computer Science,Economics,Health Care Administration
+"University of California, San Diego (UCSD)",CA,-117.237794,32.87659766,"$51,100 ","$101,000 ","$51,700 ","$75,400 ","$131,000 ","$177,000 ",Business Management,Biology,Psychology,Sociology,Economics
+"University of California, Santa Barbara (UCSB)",CA,-119.851493,34.412344,"$50,500 ","$95,000 ","$51,300 ","$71,200 ","$129,000 ","$173,000 ",Computer Science,Economics,Biology,Math,Psychology
+"University of California, Santa Cruz (UCSC)",CA,-122.060726,36.99901842,"$44,700 ","$84,100 ","$46,100 ","$62,000 ","$121,000 ","$165,000 ",Sociology,Economics,Psychology,Communications,International Relations
+University of Central Florida (UCF),FL,-81.200889,28.60215943,"$42,600 ","$71,700 ","$39,500 ","$51,500 ","$98,400 ","$125,000 ",Computer Science,Psychology,Economics,Sociology,Biology
+University Of Chicago,IL,-87.600922,41.79014558,"$53,400 ","$113,000 ","$62,200 ","$83,300 ","$174,000 ","$255,000 ",Psychology,Hospitality & Tourism,Health Care Administration,Nursing,Business Management 
+University of Colorado - Boulder (UCB),CO,-105.267061,40.00441507,"$47,100 ","$97,600 ","$51,600 ","$69,000 ","$128,000 ","$187,000 ",Economics,Computer Science ,Biology,Political Science,Business Management 
+University of Colorado - Denver,CO,-104.839345,39.74521411,"$46,100 ","$84,400 ","$46,400 ","$58,600 ","$105,000 ","$144,000 ",Business Management,Nursing,Biology,Economics,Psychology
+University of Connecticut (UConn),CT,-72.256961,41.807658,"$48,000 ","$88,800 ","$46,100 ","$66,400 ","$120,000 ","$162,000 ",Psychology,Economics,Communications,Biology,Nursing
+University of Delaware,DE,-75.752833,39.678028,"$45,900 ","$84,500 ","$44,500 ","$64,000 ","$119,000 ","$165,000 ",Finance,Marketing,Nursing,Nutrition,Psychology
+University of Florida (UF),FL,-82.361195,29.638248,"$47,100 ","$87,900 ","$45,400 ","$62,900 ","$120,000 ","$172,000 ",Biology,Psychology,Mechanical Engineering ,Finance,Political Science 
+University of Georgia (UGA),GA,-83.37143,33.937727,"$44,100 ","$86,000 ","$43,100 ","$57,800 ","$118,000 ","$164,000 ",Finance,Psychology,Biology,Business Management,Marketing
+University of Hawaii,HI,157.8171,21.2969,"$43,800 ","$76,000 ","$40,400 ","$56,300 ","$104,000 ","$128,000 ",Nutrition,Nursing,Psychology,Communications,Business Management 
+University of Houston (UH),TX,-95.344851,29.719988,"$46,000 ","$79,900 ","$42,000 ","$56,200 ","$106,000 ","$141,000 ",Psychology,Finance,Accounting,Nutrition,Biology
+University of Idaho,ID,-117.024296,46.72689377,"$44,900 ","$82,000 ","$43,000 ","$56,700 ","$104,000 ","$142,000 ",Psychology,Mechanical Engineering,Marketing,Finance,Business Management 
+University of Illinois at Chicago,IL,-87.650503,41.87183722,"$47,500 ","$81,700 ","$44,700 ","$58,800 ","$110,000 ","$146,000 ",Psychology,Biology,Nursing,Finance,Nutrition
+University of Illinois at Urbana-Champaign (UIUC),IL,-88.228482,40.1083116,"$52,900 ","$96,100 ","$48,200 ","$68,900 ","$132,000 ","$177,000 ",Psychology,Economics,Accounting,Computer Science,Biology
+University of Iowa (UI),IA,-91.535698,41.66069518,"$44,700 ","$83,900 ","$43,300 ","$61,100 ","$116,000 ","$163,000 ",Nutrition,Finance,Business Management,Psychology,Nursing
+University of Kansas,KS,-95.258651,38.956474,"$42,400 ","$81,600 ","$44,800 ","$57,200 ","$115,000 ","$156,000 ",Journalism,Psychology,Finance,Nursing,Biology
+University of Kentucky (UK),KY,-84.502517,38.028761,"$42,800 ","$78,300 ","$43,000 ","$57,300 ","$107,000 ","$149,000 ",Marketing,Business Management,Nursing,Psychology,Finance
+University of Louisiana (UL) at Lafayette,LA,-92.0204,30.2114,"$41,100 ","$76,300 ","$42,000 ","$54,500 ","$107,000 ","$163,000 ",Nursing,Education,Business Management,Biology,Psychology
+University Of Maine,ME,-68.669332,44.899257,"$41,200 ","$72,100 ","$41,700 ","$55,600 ","$99,300 ","$141,000 ",Biology,Psychology,Information Technology (IT),Computer Science,Economics
+University of Maryland Baltimore County (UMBC),MD,-76.711607,39.25668589,"$47,000 ","$77,800 ","$46,900 ","$59,100 ","$105,000 ","$130,000 ",Information Technology (IT),Economics,Biology,Criminal Justice,Finance
+"University of Maryland, College Park",MD,-76.939704,38.98860655,"$52,000 ","$95,000 ","$50,400 ","$68,300 ","$126,000 ","$166,000 ",Psychology,Economics,Communications,Health Care Administration,Biology
+University of Massachusetts (UMass) - Amherst,MA,-72.529312,42.388647,"$46,600 ","$88,200 ","$43,100 ","$61,300 ","$122,000 ","$168,000 ",Business Management,Psychology,Biology,Education,Nursing
+University of Massachusetts (UMass) - Boston,MA,-71.039814,42.31433173,"$45,600 ","$78,200 ","$36,300 ","$53,800 ","$109,000 ","$151,000 ",Nursing,Psychology,Business Management,Accounting,Criminal Justice
+University of Massachusetts (UMass) - Dartmouth,MA,-71.006837,41.62899868,"$43,200 ","$77,700 ","$43,300 ","$56,200 ","$107,000 ","$132,000 ",Business Management,Criminal Justice,Information Technology (IT),Psychology,Mechanical Engineering
+University of Massachusetts (UMass) - Lowell,MA,-71.325081,42.65371976,"$45,400 ","$86,600 ","$50,900 ","$65,000 ","$113,000 ","$158,000 ",Nursing,Nutrition,Psychology,Criminal Justice,Accounting
+University of Memphis (U of M),TN,-89.937883,35.12207587,"$41,400 ","$69,700 ","$36,100 ","$49,100 ","$93,500 ","$127,000 ",Information Technology (IT),Business Management,Economics,Psychology,Political Science 
+University of Michigan,MI,-83.736564,42.27803,"$52,700 ","$93,000 ","$50,900 ","$69,400 ","$128,000 ","$182,000 ",Psychology,Economics,Biology,Computer Science,Finance
+University of Minnesota,MN,-93.2277,44.974,"$46,200 ","$84,200 ","$49,000 ","$63,200 ","$112,000 ","$148,000 ",Nursing,Accounting,Marketing,Finance,Communications
+University of Mississippi,MS,-89.537169,34.36343843,"$41,400 ","$79,700 ","$40,400 ","$53,500 ","$108,000 ","$186,000 ",Business Management,Journalism,Health Care Administration,Psychology,Biology
+University of Missouri - Columbia,MO,-92.326429,38.941015,"$41,700 ","$81,000 ","$43,500 ","$57,100 ","$111,000 ","$156,000 ",Business Management,Nursing,Biology,Psychology,Health Care Administration
+University of Missouri - Kansas City (UMKC),MO,-94.5766,39.03372423,"$38,900 ","$65,800 ","$36,300 ","$48,100 ","$95,800 ","$124,000 ",Business Management,Journalism,Health Care Administration,Psychology,Biology
+University of Missouri - Rolla (UMR),MO,-91.7756,37.9537,"$57,100 ","$95,800 ","$67,600 ","$80,400 ","$122,000 ","$166,000 ",Business Management,Nursing,Psychology,Communications,Accounting
+University of Missouri - St. Louis (UMSL),MO,-90.308886,38.71129669,"$41,400 ","$67,100 ","$36,800 ","$49,600 ","$97,600 ","$144,000 ",Business Management,Psychology,Education,Sociology,Anthropology
+University of Montana,MT,-113.9852,46.8601,"$37,300 ","$71,900 ","$37,000 ","$51,500 ","$96,400 ","$138,000 ",Business Management,Psychology,International Relations,Finance,Nutrition
+University of Nebraska,NE,-96.7005,40.8202,"$45,700 ","$80,900 ","$42,200 ","$56,600 ","$113,000 ","$156,000 ",Criminal Justice,Psychology,Business Management,Accounting,Biology
+University of Nebraska at Omaha,NE,-96.009741,41.25794626,"$41,500 ","$72,600 ","$39,500 ","$54,400 ","$97,400 ","$126,000 ",Hospitality & Tourism ,Psychology,Criminal Justice,Communications,Nutrition
+"University of Nevada, Las Vegas (UNLV)",NV,-115.1432,36.1085,"$45,200 ","$71,600 ","$39,000 ","$52,400 ","$100,000 ","$128,000 ",Nutrition,Biology,Psychology,Business Management,Criminal Justice
+"University of Nevada, Reno (UNR)",NV,-119.8164,39.5442,"$46,500 ","$82,900 ","$41,900 ","$54,600 ","$113,000 ","$143,000 ",Business Management,Psychology,Communications,Biology,Mechanical Engineering
+University of New Hampshire (UNH),NH,-70.937,43.1389,"$41,800 ","$78,300 ","$41,700 ","$56,400 ","$114,000 ","$147,000 ",Criminal Justice,Psychology,Biology,Business Management,Communications
+University of New Haven,CT,-72.961472,41.29131434,"$44,400 ","$82,900 ","$48,500 ","$66,100 ","$113,000 ","$157,000 ",Business Management,Psychology,Nursing,Biology,Criminal Justice
+University of New Mexico (UNM),NM,-106.6198,35.0843,"$41,600 ","$81,600 ","$41,800 ","$59,100 ","$105,000 ","$141,000 ",Communications,Biology,Psychology,Economics,Political Science 
+University of North Carolina at Chapel Hill (UNCH),NC,-79.050969,35.91216532,"$42,900 ","$81,500 ","$43,400 ","$57,500 ","$117,000 ","$155,000 ",Psychology,Communications,Computer Science,Finance,Nursing
+University of North Carolina at Charlotte (UNCC),NC,-80.73579,35.30683411,"$43,100 ","$74,000 ","$38,200 ","$53,200 ","$99,500 ","$133,000 ",Business Management,Nursing,Psychology,Biology,Communications
+University of North Carolina at Wilmington (UNCW),NC,-77.8696,34.2239,"$37,500 ","$64,400 ","$32,100 ","$46,600 ","$97,100 ","$129,000 ",Communications,Psychology,Nursing,Mechanical Engineering,Accounting
+University of North Dakota,ND,-97.071738,47.921654,"$44,000 ","$80,600 ","$43,400 ","$56,400 ","$111,000 ","$157,000 ",Finance,Economics,Mechanical Engineering ,Political Science,Math
+University of Notre Dame,IN,-86.237075,41.699587,"$56,300 ","$116,000 ","$66,400 ","$85,100 ","$163,000 ","$235,000 ",Finance,Psychology,Accounting,Journalism,Nutrition
+University of Oklahoma,OK,-97.4457,35.2059,"$44,700 ","$82,900 ","$41,200 ","$60,300 ","$114,000 ","$167,000 ",Business Management,Sociology,Economics,Psychology,Marketing
+University of Oregon,OR,-123.07398,44.044515,"$42,200 ","$78,400 ","$38,100 ","$56,200 ","$117,000 ","$186,000 ",Finance,Economics,Nursing,Business Management,Philosophy
+University of Pennsylvania,PA,-75.193618,39.95100193,"$60,900 ","$120,000 ","$55,900 ","$79,200 ","$192,000 ","$282,000 ",Business Management,Psychology,Biology,International Relations,Political Science 
+University of Puget Sound,WA,-122.481199,47.26359389,"$46,600 ","$81,500 ","$48,900 ","$60,100 ","$104,000 ","$137,000 ",Nursing,Psychology,Communications,Nutrition,Biology
+University of Rhode Island (URI),RI,-71.528708,41.489334,"$43,900 ","$85,300 ","$45,400 ","$60,100 ","$112,000 ","$157,000 ",Business Management,Biology,Economics,Accounting,Psychology
+University of Richmond,VA,-77.538797,37.57739933,"$48,600 ","$94,600 ","$44,500 ","$59,400 ","$151,000 ","$211,000 ",Finance,Marketing,Business Management,Nutrition,Management Information Systems (MIS)
+University of South Carolina,SC,-81.0299,33.9938,"$40,000 ","$71,700 ","$36,300 ","$49,900 ","$98,400 ","$131,000 ",Health Care Administration,Biology,Nursing,Communications,Psychology
+University of South Florida (USF),FL,-82.4139,28.0587,"$41,100 ","$71,100 ","$39,600 ","$51,500 ","$98,100 ","$131,000 ",Business Management,Communications,Biology,Accounting,International Relations
+University of Southern California (USC),CA,-118.283858,34.021058,"$54,800 ","$99,600 ","$49,700 ","$73,800 ","$140,000 ","$201,000 ",Business Management,Psychology,Marketing,Nursing,Finance
+University of Southern Maine,ME,-70.276073,43.6622514,"$39,400 ","$63,600 ","$40,400 ","$47,900 ","$85,700 ","$117,000 ",Psychology,Nutrition,Biology,Nursing,Marketing
+University of Tennessee,TN,-83.9295,35.9544,"$43,800 ","$74,600 ","$41,900 ","$53,200 ","$106,000 ","$153,000 ",Business Management,Biology,Information Technology (IT),Economics,Psychology
+University of Texas (UT) - Austin,TX,-97.7341,30.2849,"$49,700 ","$93,900 ","$50,100 ","$67,400 ","$129,000 ","$188,000 ",Nursing,Business Management,Biology,Marketing,Nutrition
+University of Texas at Arlington (UTA),TX,-97.1121,32.7291,"$45,400 ","$80,800 ","$46,400 ","$61,200 ","$106,000 ","$138,000 ",Nursing,Criminal Justice,Biology,Psychology,Nutrition
+University of Texas at El Paso (UTEP),TX,-106.5046,31.7709,"$43,400 ","$72,100 ","$37,700 ","$50,400 ","$99,500 ","$133,000 ",Psychology,Biology,Nutrition,Criminal Justice,Communications
+University of Texas at San Antonio (UTSA),TX,-98.6189,29.5827,"$42,500 ","$70,700 ","$39,100 ","$49,800 ","$92,700 ","$121,000 ",Marketing,Nursing,Mechanical Engineering ,Business Management,Finance
+University of Toledo,OH,-83.615936,41.6572464,"$43,100 ","$75,900 ","$40,100 ","$54,100 ","$100,000 ","$133,000 ",Mechanical Engineering,Finance,Accounting,Business Management,Chemical Engineering
+University of Tulsa,OK,-95.945175,36.15188744,"$42,400 ","$88,700 ","$42,300 ","$60,300 ","$120,000 ","$197,000 ",Communications,Psychology,Economics,Business Management,Nutrition
+University of Utah,UT,-111.846044,40.76248351,"$45,400 ","$83,200 ","$43,000 ","$58,400 ","$116,000 ","$148,000 ",Business Management,Psychology,Nursing,Economics,Mechanical Engineering
+University of Vermont (UVM),VT,-73.198128,44.47926159,"$44,800 ","$82,700 ","$44,700 ","$58,000 ","$122,000 ","$194,000 ",Economics,Business Management,Biology,International Relations,Psychology
+University of Virginia (UVA),VA,-78.511845,38.033977,"$52,700 ","$103,000 ","$52,200 ","$71,800 ","$146,000 ","$215,000 ",Psychology,Communications,Political Science,Finance,Biology
+University of Washington (UW),WA,-122.310802,47.65577518,"$48,800 ","$85,300 ","$47,000 ","$59,800 ","$115,000 ","$149,000 ",Business Management,Nursing,Psychology,Marketing,Nutrition
+University of Wisconsin (UW) - Eau Claire,WI,-91.500432,44.79843117,"$41,400 ","$64,800 ","$35,000 ","$47,300 ","$93,100 ","$125,000 ",Business Management,Biology,Psychology,Nursing,Education
+University of Wisconsin (UW) - Green Bay,WI,-87.920499,44.53110154,"$35,800 ","$60,600 ","$35,500 ","$46,800 ","$81,800 ","$102,000 ",Biology,Nutrition,Psychology,Finance,Marketing
+University of Wisconsin (UW) - La Crosse,WI,-91.230125,43.81539006,"$42,200 ","$69,300 ","$37,500 ","$47,200 ","$93,100 ","$133,000 ",Biology,Economics,Information Technology (IT),Health Care Administration,Psychology
+University of Wisconsin (UW) - Madison,WI,-89.405356,43.07385753,"$48,900 ","$87,800 ","$47,400 ","$62,400 ","$118,000 ","$170,000 ",Nursing,Marketing,Finance,Communications,Psychology
+University of Wisconsin (UW) - Milwaukee,WI,-87.880488,43.07684762,"$42,300 ","$74,600 ","$40,600 ","$54,000 ","$93,700 ","$123,000 ",Nursing,Education,Biology,Finance,Psychology
+University of Wisconsin (UW) - Oshkosh,WI,-88.549282,44.02498538,"$39,300 ","$66,400 ","$37,700 ","$49,700 ","$90,100 ","$138,000 ",Business Management,Psychology,Criminal Justice,Communications,Nutrition
+University of Wisconsin (UW) - Parkside,WI,-87.855407,42.64607382,"$40,700 ","$71,400 ","$40,900 ","$53,100 ","$84,900 ","$119,000 ",Mechanical Engineering,Business Management,Criminal Justice,Biology,Agriculture
+University of Wisconsin (UW) - Platteville,WI,-90.48792,42.73423024,"$45,800 ","$78,500 ","$48,400 ","$61,200 ","$100,000 ","$139,000 ",Business Management,Biology,Forestry,Psychology,Education
+University of Wisconsin (UW) - Stevens Point,WI,-89.570934,44.529582,"$39,800 ","$64,000 ","$38,400 ","$45,100 ","$95,400 ","$128,000 ",Business Management,Education,Management Information Systems (MIS),Hospitality & Tourism,Graphic Design
+University of Wisconsin (UW) - Stout,WI,-91.925269,44.871765,"$43,600 ","$68,300 ","$40,900 ","$50,600 ","$91,600 ","$136,000 ",Finance,Marketing,Communications,Business Management,Accounting
+University of Wisconsin (UW) - Whitewater,WI,-88.742368,42.835563,"$40,800 ","$75,500 ","$38,200 ","$53,500 ","$99,300 ","$150,000 ",Nursing,Psychology,Education,Management Information Systems (MIS),Nutrition
+University of Wyoming (UW),WY,-105.57204,41.311943,"$44,500 ","$78,700 ","$41,500 ","$54,000 ","$105,000 ","$145,000 ",Biology,Economics,Nutrition,Psychology,Communications
+Ursinus College,PA,-75.458029,40.19423605,"$42,100 ","$80,000 ","$35,600 ","$54,300 ","$100,000 ","$160,000 ",Economics,Business Management,Information Technology (IT),Education,Psychology
+Utah State University,UT,-111.81391,41.740748,"$43,800 ","$78,700 ","$41,600 ","$55,400 ","$101,000 ","$132,000 ",Psychology,Business Management,Communications,Computer Engineering,Accounting
+Utah Valley State College,UT,-111.717058,40.2785117,"$42,400 ","$67,100 ",,"$44,100 ","$84,900 ",,Economics,Math,Computer Science,Political Science,Psychology
+Vanderbilt University,TN,-86.804875,36.14442982,"$51,200 ","$104,000 ","$49,900 ","$68,100 ","$147,000 ","$222,000 ",Political Science,Economics,Psychology,Biology,English
+Vassar College,NY,-73.897581,41.68599708,"$46,000 ","$94,600 ",,"$60,600 ","$123,000 ",,Finance,Nursing,Communications,Economics,Management Information Systems (MIS)
+Villanova University,PA,-75.340222,40.03577163,"$55,800 ","$101,000 ","$56,800 ","$76,200 ","$156,000 ","$226,000 ",Psychology,Business Management,Biology,Education,Communications
+Virginia Commonwealth University (VCU),VA,-77.453597,37.5476308,"$42,000 ","$68,400 ","$37,400 ","$51,900 ","$100,000 ","$123,000 ",Mechanical Engineering,Management Information Systems (MIS),Finance,Nutrition,Information Technology (IT)
+Virginia Polytechnic Institute and State University (Virginia Tech),VA,-80.419988,37.2299064,"$53,500 ","$95,400 ","$50,600 ","$71,400 ","$124,000 ","$163,000 ",Business Management,Criminal Justice,Biology,Psychology,Communications
+Virginia Wesleyan College (VWC),VA,-76.18606,36.86841713,"$34,600 ","$54,900 ",,"$37,100 ","$88,900 ",,Psychology,Nursing,Sociology,Mechanical Engineering,Accounting
+Washington and Lee University,VA,-79.442869,37.78897441,"$53,600 ","$104,000 ",,"$82,800 ","$146,000 ",,Business Management,Economics,Political Science,Accounting,Math
+Washington State University (WSU),WA,-117.158168,46.730448,"$45,300 ","$84,700 ","$43,600 ","$59,000 ","$113,000 ","$162,000 ",Psychology,Biology,Business Management,Nursing,Health Care Administration
+Wayne State University,MI,-83.072864,42.35861,"$42,800 ","$76,100 ","$40,100 ","$56,200 ","$101,000 ","$139,000 ",Economics,Information Technology (IT),Political Science,Biology,Psychology
+Wellesley College,MA,-71.306657,42.29374109,"$42,800 ","$83,500 ",,"$58,600 ","$125,000 ",,Mechanical Engineering,Construction,Architecture,Computer Science,Business Management
+Wentworth Institute of Technology,MA,-71.094983,42.33663201,"$53,000 ","$96,700 ","$55,200 ","$74,000 ","$117,000 ","$153,000 ",Economics,Psychology,English,Political Science,Biology
+"Wesleyan University (Middletown, Connecticut)",CT,-72.656773,41.5568096,"$46,500 ","$97,900 ","$42,000 ","$62,500 ","$126,000 ","$215,000 ",Journalism,Sociology,Psychology,Nursing,Education
+West Virginia University (WVU),WV,-79.953926,39.63468,"$43,100 ","$78,100 ","$39,700 ","$55,700 ","$106,000 ","$141,000 ",Nursing,Criminal Justice,Business Management,Marketing,Psychology
+Western Carolina University,NC,-83.184555,35.30936691,"$36,900 ","$66,600 ","$39,000 ","$49,500 ","$94,400 ","$133,000 ",Marketing,Health Care Administration,Psychology,Nursing,Business Management 
+Western Michigan University (WMU),MI,-85.613482,42.28079931,"$42,300 ","$73,800 ","$40,100 ","$52,500 ","$103,000 ","$135,000 ",Psychology,Information Technology (IT),Business Management,Communications,Sociology
+Western Washington University,WA,-122.485016,48.73737855,"$42,700 ","$75,400 ","$41,300 ","$56,700 ","$99,200 ","$119,000 ",Biology,Political Science,Economics,Psychology,Geology
+Whitman College,WA,-118.329714,46.07148757,"$43,500 ","$80,100 ",,"$64,800 ","$111,000 ",,Nursing,Psychology,Physician Assistant,Business Management,Mechanical Engineering
+Widener University,PA,-75.355216,39.86171641,"$52,900 ","$83,400 ","$42,600 ","$61,400 ","$106,000 ","$138,000 ",Economics,Math,Biology,Political Science,History
+Williams College,MA,-73.203071,42.7127729,"$51,700 ","$102,000 ",,"$76,400 ","$143,000 ",,Biology,Psychology,Marketing,Education,Business Management 
+Wittenberg University,OH,-83.813911,39.93479432,"$39,200 ","$78,200 ",,"$54,100 ","$131,000 ",,Mechanical Engineering,Computer Science,Chemical Engineering,Electrical Engineering,Aerospace Engineering
+Worcester Polytechnic Institute (WPI),MA,-71.809765,42.2743459,"$61,000 ","$114,000 ","$80,000 ","$91,200 ","$137,000 ","$180,000 ",Economics,History,Political Science,Biology,English
+Yale University,CT,-72.922511,41.31230826,"$59,100 ","$126,000 ","$58,000 ","$80,600 ","$198,000 ","$326,000 ",,,,,
