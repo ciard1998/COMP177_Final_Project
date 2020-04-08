@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ----------------------------- US Map Viz Code ------------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<body>
+<!-- JS and CSS Scripts -->
+<script src="JS/uStates.js"></script> <!-- uStates script -->
+<link rel="stylesheet" href="css/index.css"></link><!-- interface css -->
+<script src="JS/d3.min.js"></script> <!-- d3 script -->
+<script src="JS/jquery-3.1.0.min.js"></script> <!-- jquery script -->
+
+<!-- HTML Objects -->
+
+<!-- Viz Title -->
+<h1 style="width:100%; margin-bottom:0; padding-bottom:0;line-height: 0px">
+    Where it Pays to Attend college 
+</h1>
+
+<!-- Viz Subtitle -->
+<h3 style="float:left; width:100%; opacity: 0.75">
+    Salaries by college, region, and academic major 
+</h3>
+
+<!-- Map Title -->
+<h3 align="center" style="margin-bottom: 0; padding-bottom: 0" >
+    <u>College and State Salary Map</u> 
+</h3><!-- map title -->
+
+<div id="school_searchBar"></div> <!-- search bar Viz -->
+<div id="tooltip"></div><!-- tooltip div -->
+<div align="center" id="map"></div> <!-- map div -->
+
+<script type="text/javascript">
+
+    /*********************************************************************
+     ************************** Driver Function **************************
+     *********************************************************************/
+
+    // Arrays for search bar keys and data
+    var searchBar_keys = [];
+    var searchBar_data = [];
+
+    // Heat map color scale projection variable 
+    var heat = d3.scale.ordinal()
+        .domain([0, 1, 2, 3, 4])
+        .range(["#BB2528", "#EA4630", "#F8B229", "#9ACD32", "#165B33"]);
+    
+    // Function to draw the map viz to the screen    
+    function draw_map(){
+        // SVG object
+        var svg = d3.select("#map").append("svg")
+                    .attr("id", "mapSVG")
+                    .attr("width", 960)
+                    .attr("height", 600);
+        var width = +svg.attr("width");
+        var height = +svg.attr("height");
+        var g = svg.append("g");
+
+        // Draw states on map svg 
+        uStates.draw("#mapSVG", heat, tooltipHtml);
+
+        // Projection variable for mapping college locations
+        var projection = d3.geo.albersUsa().scale(1250)
+            .translate([width / 2 - (width/192), height / 2 - (height/43)]);
+
+        // Read data fromm CSV for map viz
+        d3.csv("Data/master_data.csv", function(data){
+            // Pull search bar keys and data
+            for(var i = 0; i < data.length; i++){
+                searchBar_keys.push({id:i, text:data[i]["School Name"]});
+                searchBar_data.push(data[i]);
+            }
+
+            // Draw college circles on map SVG
+            d3.select("#mapSVG").selectAll("circle")
+                .data(data)
+                .enter().append("circle")
+                .each(function(d){
+                    try{
+                        var pos = projection([parseFloat(d["Longitude"]),
+                                             parseFloat(d["Latitude"])]);
+                        d.cx = pos[0];
+                        d.cy = pos[1];
+                    }
+                    catch(error){
+                        d.cx = 282;     // Hawaii cx-value
+                        d.cy = 530;     // Hawaii cy-value
+                    }
+                })
+                .attr("cy", function(d){ return d.cy; })
+                .attr("cx", function(d){ return d.cx; }) 
+                .attr("r", 2)
+                .style("fill", "black")
+                .style("opacity", 1)
+                .style("cursor", "pointer")
+                .on("mouseover", school_mouseOver)
+                .on("mouseout", mouseOut)
+                .on("click", selectSchool);
+
+            // Append legend object
+            var legend = g.append("g")
+                        .attr("font-family", "sans-serif")
+                        .attr("font-size", 10)
+                        .attr("text-anchor", "end")
+                      .selectAll("g")
+                        .data([0, 1, 2, 3, 4])
+                      .enter().append("g")
+                        .attr("transform", function(d, i) { 
+                            return "translate(275," + (410 + i * 20) + ")"; });
+
+            // Append legend colored squares 
+            legend.append("rect")
+                .attr("x", width - 295)
+                .attr("width", 19)
+                .attr("height", 19)
+                .attr("fill", function(d){ return heat(d)});
+
+            // Append legend text
+            legend.append("text")
+                .attr("x", width - 300)
+                .attr("y", 9.5)
+                .attr("dy", "0.32em")
+                .style("font-size", "8px")
+                .style("font-weight", "bold")
+                .text(function(d) {
+                    switch(d){
+                        case 0: return "$60,000 - $69,999"; break;
+                        case 1: return "$70,000 - $79,999"; break;
+                        case 2: return "$80,000 - $89,999"; break;
+                        case 3: return "$90,000 - $99,999"; break;
+                        case 4: return "$100,000 - $110,000"; break;
+                    }
+                });
+
+            // Append legend title (Part 1)
+            d3.select("#mapSVG").append("text")
+                .attr("x", width - 95)
+                .attr("y", height - 215)
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .text("Mean Mid-Career");
+
+            // Append legend title (Part 2)
+            d3.select("#mapSVG").append("text")
+                .attr("x", width - 90)
+                .attr("y", height - 200)
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .text("Median Salary");
+        });
+    }
+
+    /*********************************************************************
+     ************************** Helper Functions *************************
+     *********************************************************************/
+
+    // Function to create HTML content string in tooltip
+    function tooltipHtml(words){ 
+        return "<h4>" + words + "</h4><table>"+"</table>";
+    }
+
+    // Function to handle mouseover event for a college
+    function school_mouseOver(d){
+        // Pull starting & mid-career median salaries & computer percent change
+        var sms = Number(d["Starting Median Salary"]);
+        var mcm = Number(d["Mid-Career Median Salary"]);
+        var per_change = (100* (mcm/sms - 1)).toFixed(2);
+
+        // Display tooltip
+        d3.select("#tooltip").transition().duration(200).style("opacity", .9);
+        d3.select("#tooltip")
+            .html(tooltipHtml(d["School Name"] + 
+                "<br />Starting Median Salary: $" + sms.toLocaleString() + 
+                "<br />Mid-Career Median Salary: $" + mcm.toLocaleString() + 
+                "<br />Percent Change: " + per_change + "%"))
+            .style("left", (d3.event.pageX) + "px")     
+            .style("top", (d3.event.pageY - 28) + "px");
+    }
+        
+    // Function to handle mouseout event
+    function mouseOut(){
+        d3.select("#tooltip").transition().duration(500).style("opacity", 0); 
+    }
+
+    // Function to handle a click event for a college
+    function selectSchool(d){
+        // Pull starting & mid-career median salaries & computer percent change
+        var sms = Number(d["Starting Median Salary"]);
+        var mcm = Number(d["Mid-Career Median Salary"]);
+        var per_change = (100* (mcm/sms - 1)).toFixed(2);
+
+        // Remove stacked bar chart and grouped bar chart SVGs
+        d3.select("#chartSVG").remove();
+        d3.select("#gbSVG").remove();
+
+        // Display selected school heading 
+        d3.select("#selected_school")
+            .html("Selected School: " + d["School Name"] + " | Type: " + 
+                    d["Type"] + " | Region: " + d["Region"] + 
+                    "<br />Starting Median Salary: $" + sms.toLocaleString() + 
+                    " | Mid-Career Median Salary: $" + 
+                    mcm.toLocaleString() + " | Percent Change: " + 
+                    per_change + "%");
+
+        // Show deselect buttons
+        d3.selectAll(".deselect").style("display", "inline");
+
+        // Reset "Earnings by Major" selection box
+        $("#target option:first").prop("selected", true)
+         
+         // Redraw stacked bar chart and grouped bar chart
+        draw_bar([d["1st"], d["2nd"], d["3rd"], d["4th"], d["5th"]]);
+        school = [d["School Name"], 
+                  d["Starting Median Salary"], 
+                  d["Mid-Career Median Salary"], 
+                  d["Mid-Career 10th Percentile Salary"], 
+                  d["Mid-Career 25th Percentile Salary"], 
+                  d["Mid-Career 75th Percentile Salary"], 
+                  d["Mid-Career 90th Percentile Salary"]];
+        draw_grouped(school);
+    }
+    
+</script>
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  -------------------------- End of US Map Viz Code --------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ------------------------- Earnings by Major Code ---------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<!-- JS Scripts -->
+<script src="JS/d3.v4.min.js"></script> <!-- d3 v4 script -->
+
+<!-- HTML Objects -->
+
+<!-- deselect button 1 -->
+<a class="deselect" id="deselect1" onmouseover="button_mouseOver(1)" 
+    onmouseout="button_mouseOut(1)" onclick="deselect()">
+    Deselect School     
+</a>
+
+<!-- selected school heading -->
+<h4 style="float:left; width: 60%" align="center" id="selected_school"></h4> 
+
+<!-- deselect button 2 -->
+<a class="deselect" id="deselect2" onmouseover="button_mouseOver(2)" 
+    onmouseout="button_mouseOut(2)" onclick="deselect()">
+    Deselect School   
+</a>
+
+<!-- Bar Chart Titles -->
+<div style="clear: both">
+    <!-- stacked bar chart viz title -->
+    <h3 style="text-align: left;float: left; margin-left: 45vh;
+                margin-bottom: 0; padding-bottom: 0">
+        <u>Earnings by Major</u></h3> 
+    <!-- grouped bar chart viz title -->
+    <h3 style="text-align: : right;float: right; 
+                margin-right: 45vh;margin-bottom: 0; padding-bottom: 0">
+        <u>Earnings by Region & Type</u></h3>
+</div><br /><br />
+
+<!-- Selection Box for Earnings by Major -->
+<div id="sort" onchange="sortStacked()" style="width:25%;margin-left: 5vh;">
+  <select id="target">
+    <option selected disabled style="opacity: 0.5">Sort By</option>
+    <option>Mid-Career 90th Percentile</option>
+    <option>Mid-Career 75th Percentile</option>
+    <option>Mid-Career Median</option>
+    <option>Mid-Career 25th Percentile</option>
+    <option>Mid-Career 10th Percentile</option>
+    <option>Starting Median</option>
+  </select>
+</div>
+
+<!-- stacked bar chart div -->
+<div id="stacked_barChart" style="width: 50%"></div> 
+
+<script type="text/javascript">
+
+    /*********************************************************************
+     ************************** Driver Function **************************
+     *********************************************************************/
+
+    // Function to draw the stacked bar chart for Earnings by Major
+    function draw_bar(filter){
+        // SVG object and parameters      
+        var svg = d3.select("body").append("svg")
+                    .attr("id", "chartSVG")
+                    .attr("width", Number(d3.select("#stacked_barChart")
+                                            .style("width").slice(0,-2)))
+                    .attr("height", 600);
+        var margin = {top: 20, right: 50, bottom: 30, left: 40};
+        var width = +svg.attr("width") - margin.left - margin.right;
+        var height = +svg.attr("height") - margin.top - margin.bottom;
+        var g = svg.append("g").attr("transform", "translate(" + margin.left 
+            + "," + margin.top + ")");
+
+        // Projection to y dimension (Major)
+        var y = d3.scaleBand()
+            .rangeRound([0, height])   
+            .paddingInner(0.05)
+            .align(0.1);
+
+        // Projection to x dimension (Salary)
+        var x = d3.scaleLinear()       
+            .rangeRound([0, width-width/10]);
+
+        // Projection to z dimension (Color)
+        var z = d3.scaleOrdinal()
+            .range(["#00C7B7", "#F6D852", "#F9A164", "#FB6A75", 
+                    "#2D3B41", "white"]);
+
+        // Read data from CSV
+        d3.csv("Data/degrees_processed_data.csv", function(d, i, columns) {
+            // Sum the total for each major over all Mid-Career Salary columns
+            for (var i = 1, t = 0; i < columns.length-1; ++i) 
+                t += d[columns[i]] = +d[columns[i]];
+                d.total = t;
+                return d;
+            }, 
+
+            // Function to draw horizontal stacked bar chart
+            function(error, data){
+                if (error) throw error;
+                
+                var keys = data.columns.slice(1); // Slice major name from keys
+                keys = keys.slice(0,5); // Slice Starting Median from keys
+                
+                // Sort data by total earnings
+                data.sort(function(a, b){ return b.total - a.total;}); 
+
+                // If filter applied from map, filter data
+                if(filter.length != 0){
+                    new_data = [];
+                    for(var i = 0; i < filter.length; i++){
+                        for(var j = 0; j < data.length; j++){
+                            if(filter[i].trim() == data[j]["Major"].trim())
+                                new_data.push(data[j])  // first add top 5
+                        }
+                    }
+                    for(var i = 0; i < data.length; i++){
+                        if(!new_data.includes(data[i]["Major"].trim()))
+                            new_data.push(data[i]); // then add rest
+                    }
+                    data = new_data;
+                }
+               
+                // Set domain for x, y, and z dimensions
+                y.domain(data.map(function(d) { return d.Major; })); 
+                x.domain([0, d3.max(data, function(d){ 
+                    return d.total; 
+                })]).nice();
+                z.domain(keys);
+
+                // Reformat data
+                var new_data = d3.stack().keys(keys)(data);
+                var viz_data = []
+                for(var i = 0; i < new_data.length; i++){
+                    for(var j = 0; j < new_data[i].length; j++){
+                        new_data[i][j].key = new_data[i].key;
+                        viz_data.push(new_data[i][j])
+                    }
+                }
+
+                // Append rectangles to SVG for Mid-Career Salary Benchmarks
+                g.append("g")
+                    .selectAll("g")
+                    .data([viz_data])
+                  .enter().append("g")
+                    .attr("class", "rects")
+                    .selectAll("rect")
+                    .data(function(d) {return d; })
+                  .enter().append("rect")
+                    .attr("class", "singleRect")
+                    .attr("y", function(d) { return y(d.data.Major); })
+                    .attr("x", function(d) { return x(d[0])+(.15*width); })  
+                    .attr("width", function(d) { return x(d[1]) - x(d[0]); })
+                    .attr("fill", function(d){ return z(d.key)})
+                    .attr("opacity", function(d){
+                        if(filter.length == 0 || filter.includes(d.data.Major))
+                            return 1;
+                        else
+                            return 0.5;
+                    })
+                    .attr("height", y.bandwidth())
+                    .on("mouseover", rect_mouseOver)
+                    .on("mouseout", mouseOut);
+
+                // Append circles to SVG for Median Starting Salary
+                g.append("g")
+                    .selectAll("circle")
+                    .data(data)
+                  .enter().append("circle")
+                    .attr("class", "singleCirc")
+                    .attr("cy", function(d){ 
+                        return y(d["Major"]) + (0.5 * y.bandwidth()); 
+                    })
+                    .attr("cx", function(d){ 
+                        return x(d["Starting Median Salary"]) + (.15*width); 
+                    }) 
+                    .attr("r", y.bandwidth()/3)
+                    .attr("opacity", function(d){
+                        if(filter.length == 0 || filter.includes(d.Major))
+                            return 1;
+                        else
+                            return 0.5;
+                    })
+                    .style("fill", "black")
+                    .on("mouseover", circle_mouseOver)
+                    .on("mouseout", mouseOut);
+
+                // Append y-axis
+                g.append("g")
+                    .attr("class", "yAxis")
+                    .attr("transform", "translate("+(.15*width)+",0)")   
+                    .style("font-size", "8px")
+                    .call(d3.axisLeft(y));
+
+                // Append x-axis
+                g.append("g")
+                    .attr("class", "xAxis")
+                    .attr("transform", "translate("+(.15*width)+","+height+")")
+                    .call(d3.axisBottom(x).ticks(6, "s"))
+                .append("text")
+                    .attr("y", 2)
+                    .attr("x", x(x.ticks().pop()) + 0.5)
+                    .attr("dy", "0.32em")
+                    .attr("fill", "#000")
+                    .attr("font-weight", "bold")
+                    .attr("text-anchor", "start")
+                    .text("Salary")
+                    .attr("transform", "translate(" + (-width) + "," 
+                                            + y.bandwidth() +")");
+
+                // Append legend object
+                var legend = g.append("g")
+                            .attr("font-family", "sans-serif")
+                            .attr("font-size", 10)
+                            .attr("text-anchor", "end")
+                          .selectAll("g")
+                            .data(keys.slice().reverse())
+                          .enter().append("g")
+                            .attr("transform", function(d, i) { 
+                                return "translate(0,"+ (300 + i * 20) + ")";
+                            });
+
+                // Append legend colored squares 
+                legend.append("rect")
+                    .attr("x", width + margin.right-0.03*width-10)
+                    .attr("width", 0.03*width)
+                    .attr("height", 0.03*width)
+                    .attr("fill", z)
+                    .attr("stroke", z)
+                    .attr("stroke-width",2);
+
+                // Append legend text
+                legend.append("text")
+                    .attr("x", width + margin.right-0.04*width-10)
+                    .attr("y", 9.5)
+                    .attr("dy", "0.32em")
+                    .style("font-size", "8px")
+                    .style("font-weight", "bold")
+                    .text(function(d) { 
+                        if(d == "Mid-Career 50th Percentile")
+                            return "Mid-Career Median";
+                        else
+                            return d; 
+                    });
+            }
+        )
+    }
+
+    /*********************************************************************
+     ************************** Helper Functions *************************
+     *********************************************************************/
+
+    // Function to transition the viz and resort the stacked bar chart
+    function sortStacked(){
+        // If a school is selected, feature won't work
+        if($("#selected_school").text()){
+            // Send Alert
+            alert("Feature disabled when a school is currently selected.\
+                \nDeselect the school to access this feature.");
+
+            // Reset selected option to default option
+            $("#target option:first").prop("selected", true);
+            return;
+        }
+
+        // Pull sorting metric and height values
+        var cat = $("#sort option:selected").text();
+        var h = $("#chartSVG").attr("height");
+
+        // Read in the data and transition the stacked bar chart
+        d3.csv("Data/degrees_raw_data.csv", function(error, data) {
+            // Sort the data by the selected metric
+            var sorted_data = data.sort(compare(cat)); 
+
+            // Create the new y dimensions projection
+            var y = d3.scaleBand()
+                .rangeRound([0, h-50])   
+                .paddingInner(0.05)
+                .align(0.1)
+                .domain(sorted_data.map(function(d){
+                    return d["Undergraduate Major"]
+                }));
+
+            // Transition the y-axis
+            d3.select(".yAxis")
+                    .transition()
+                    .call(d3.axisLeft(y).ticks(null, "s"))
+                    .duration(500);
+
+            // Transition the bars
+            d3.selectAll(".singleRect")
+                    .transition()
+                    .attr("y", function(d){ return y(d.data.Major)})
+                    .duration(500);
+
+            // Transition the circles
+            d3.selectAll(".singleCirc")
+                    .transition()
+                    .attr("cy", function(d){ 
+                        return y(d.Major) + 0.5*y.bandwidth()
+                    })
+                    .duration(500);
+        })
+    }
+
+    // Function to perform comparisons between two objects on a given property
+    function compare(property) {
+        return function (a,b) {
+            var result = (+a[property] < +b[property]) ? -1 
+                        : (+a[property] > +b[property]) ? 1 : 0;
+        return result * -1;
+        }
+    }
+
+    // Function to create HTML content string in tooltip
+    function tooltipHtml(words){
+      return "<h4>"+ words +"</h4><table>"+"</table>";
+    }
+
+    // Function to react to mouseover on rectangle object in stacked bar chart
+    function rect_mouseOver(d){
+        // Display full name of MIS major
+        var major = d.data.Major;
+        if(major == "MIS")
+            major = "Management Information Systems (MIS)";
+
+        // Display tooltip
+        d3.select("#tooltip").transition().duration(200).style("opacity", .9);
+        d3.select("#tooltip").html(tooltipHtml(major + " " + d.key + ": $" 
+            + d[1].toLocaleString())) 
+          .style("left", (d3.event.pageX) + "px")     
+          .style("top", (d3.event.pageY - 28) + "px");
+    }
+
+    // Function to react to mouseover on circle object in stacked bar chart
+    function circle_mouseOver(d){
+        // Display full name of MIS major
+        var major = d["Major"];
+        if(major == "MIS")
+            major = "Management Information Systems (MIS)";
+
+        // Display tooltip
+        d3.select("#tooltip").transition().duration(200).style("opacity", .9);
+        d3.select("#tooltip").html(tooltipHtml(major 
+            + " Starting Median Salary: $" 
+            + Math.round(d["Starting Median Salary"]).toLocaleString()))
+          .style("left", (d3.event.pageX) + "px")     
+          .style("top", (d3.event.pageY - 28) + "px");
+    }
+
+    // Function to react to mouseout on object in stacked bar chart
+    function mouseOut(){
+        d3.select("#tooltip").transition().duration(500).style("opacity", 0);
+    }
+
+</script>
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ---------------------- End of Earnings by Major Code -----------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  -------------------------- Deselect Buttons Code ---------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<script type="text/javascript">
+
+    // Function to handle mouseover event on deselect button
+    function button_mouseOver(num){
+        d3.select("#deselect" + num).style("opacity", 0.5);
+    }
+
+    // Function to handle mouseout event on deselect button
+    function button_mouseOut(num){
+        d3.select("#deselect" + num).style("opacity", 1);
+    }
+
+    // Reset viz when you click a deselect button   
+    function deselect(){
+        d3.select("#selected_school").text("");
+        $('#school_searchBar').select2("val", ""); // Clear Search Bar
+
+        // Clear stacked and grouped bar charts
+        d3.select("#chartSVG").remove();
+        d3.select("#gbSVG").remove();
+
+        // Redraw stacked and grouped bar charts
+        draw_bar([]);
+        draw_grouped();
+
+        // Hide the deselect buttons 
+        d3.selectAll(".deselect").style("display", "none");
+    }
+
+</script>
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ----------------------- End of Deselect Buttons Code -----------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  -------------------------- Grouped Bar Chart Code --------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<script type="text/javascript">
+
+    /*********************************************************************
+     ************************** Driver Function **************************
+     *********************************************************************/
+
+    // Function to draw both grouped bar charts
+    function draw_grouped(school){
+        // SVG object and parameters
+        var svg = d3.select("body").append("svg")
+                    .attr("id", "gbSVG")
+                    .attr("width", Number(d3.select("#chartSVG")
+                                            .style("width").slice(0,-2)))
+                    .attr("height", 600);
+        var margin = {top: 20, right: 20, bottom: 30, left: 40};
+        var width = +svg.attr("width") - margin.left - margin.right;
+        var height = +svg.attr("height") - margin.top - margin.bottom;
+        var g1 = svg.append("g").attr("transform", "translate(" + margin.left 
+                    + "," + (-height/2 + 5) + ")");
+        var g2 = svg.append("g").attr("transform", "translate(" + margin.left 
+                    + "," + (30) + ")");
+
+        // Projection to x0 dimension (Salary Group)
+        var x0 = d3.scaleBand()
+                    .rangeRound([0, width-85])
+                    .paddingInner(0.1);
+
+        // Projection to x1 dimension (Type/Region)
+        var x1 = d3.scaleBand();
+
+        // Projection to y dimension (Salary)
+        var y = d3.scaleLinear().range([height, height/2]); 
+
+        // x- axis object
+        var xAxis = d3.svg.axis()
+            .scale(x0)
+            .tickSize(0)
+            .orient("bottom");
+
+        // y-axis object
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left");
+
+        // Read data for grouped bar chart on school types
+        d3.csv("Data/type_means.csv", function(error, data){
+            var types = data.columns.slice(1); // pull list of school types
+            
+            // If a selection from the map is made, append school to types
+            if(school){
+                for(var i = 1; i < school.length; i++){
+                    data[i-1][school[0]] = +school[i];
+                }
+                data.columns.push(school[0]);
+            }
+
+            // Convert salary data from string to numeric data
+            for(var i = 0; i < data.length; i++){
+                for (var j = 1; j < data.columns.length; j++) 
+                    data[i][data.columns[j]] = +data[i][data.columns[j]];
+            }
+
+            // Group color scale
+            var color_scale = ["#FFD08E", "#FFA874", "#FA7C5A", "#E3534C", 
+                                "#A8234C", "#681740"];
+            if(school) // If school selected, push another color to scale 
+                color_scale.push("#3E0E26");
+
+            // Projection to z dimension (Color)
+            var z = d3.scaleOrdinal().range(color_scale);
+
+            // Pull data keys and set x0, x1, and y domains 
+            var keys = data.columns.slice(1);
+            x0.domain(data.map(function(d) { return d.Group; }));
+            x1.domain(keys).rangeRound([0, x0.bandwidth()]);
+            y.domain([0, d3.max(data, function(d) { 
+                return d3.max(keys, function(key) { 
+                    return d[key]; 
+                }); 
+            })]).nice();
+
+            // Draw the grouped bar chart 
+            draw_half(data, g1, height, width, x0, x1, y, z, keys, 1, types);
+        });
+
+        // Read data for grouped bar chart on school regions
+        d3.csv("Data/region_means.csv", function(error, data){
+            var regions = data.columns.slice(1); // pull list of school regions
+
+            // If a selection from the map is made, append school to regions
+            if(school){
+                for(var i = 1; i < school.length; i++){
+                    data[i-1][school[0]] = +school[i];
+                }
+                data.columns.push(school[0]);
+            }
+
+            // Convert salary data from string to numeric data
+            for(var i = 0; i < data.length; i++){
+                for (var j = 1; j < data.columns.length; j++) 
+                    data[i][data.columns[j]] = +data[i][data.columns[j]];
+            }
+            
+            // Group color scale
+            var color_scale = ["#00DDF9", "#00ABE7", "#0087CA", "#00639B", 
+                                "#003B64"];
+            if(school) // If school selected, push another color to scale 
+                color_scale.push("#001932");
+            
+            // Projection to z dimension (Color)
+            var z = d3.scaleOrdinal().range(color_scale);
+
+            // Pull data keys and set x0, x1, and y domains
+            var keys = data.columns.slice(1);
+            x0.domain(data.map(function(d) { return d.Group; }));
+            x1.domain(keys).rangeRound([0, x0.bandwidth()]);
+            y.domain([0, d3.max(data, function(d) { 
+                return d3.max(keys, function(key) { 
+                    return d[key]; 
+                }); 
+            })]).nice();
+
+            // Draw the grouped bar chart 
+            draw_half(data, g2, height, width, x0, x1, y, z, keys, 2, regions);
+        });
+    }
+
+    /*********************************************************************
+     ************************** Helper Functions *************************
+     *********************************************************************/
+
+    // Function to react to mouseover on bar object in grouped bar chart
+    function bar_mouseOver(d){
+        // Pull bar group name and replace shorthand abbr for full version
+        group = d.group.replace("MC", "Mid-Career")
+                        .replace("th", "th Percentile");
+
+        // Display tooltip
+        d3.select("#tooltip").transition().duration(200).style("opacity", .9);
+        d3.select("#tooltip").html(tooltipHtml(d.key + " " + group + ": $" 
+            + Math.round(d.value).toLocaleString()))  
+          .style("left", (d3.event.pageX) + "px")     
+          .style("top", (d3.event.pageY - 28) + "px");
+    }
+
+    // Function to react to mouseout on bar object in grouped bar chart
+    function bar_mouseOut(d){
+        d3.select("#tooltip").transition().duration(500).style("opacity", 0);
+    }
+
+    // Function to draw one grouped bar chart to the viz
+    function draw_half(data, g, h, w, x0, x1, y, z, keys, num, groups){
+        // Append bars to SVG for each Salary Group
+        g.append("g")
+            .selectAll("g")
+            .data(data)
+          .enter().append("g")
+            .attr("class","bar" + num)
+            .attr("transform", function(d) { 
+                return "translate(" + x0(d.Group) + ",0)"; 
+            })
+            .selectAll("rect")
+            .data(function(d) { 
+                return keys.map(function(key) {
+                    return {group:d.Group, key: key, value: d[key]}; 
+                }); 
+            })
+          .enter().append("rect")
+            .attr("x", function(d) { return x1(d.key); })
+            .attr("y", function(d) { return y(d.value); })
+            .attr("width", x1.bandwidth())
+            .attr("height", function(d) { return h - y(d.value); })
+            .attr("fill", function(d) { return z(d.key); })
+            .on("mouseover", bar_mouseOver)
+            .on("mouseout", bar_mouseOut);
+
+        // Append x-axis
+        g.append("g")
+            .attr("class", "x"+num)
+            .attr("transform", "translate(0," + h + ")")
+            .call(d3.axisBottom(x0));
+
+        // Append y-axis
+        g.append("g")
+            .attr("class", "y" + num)
+            .call(d3.axisLeft(y).ticks(null, "s"))
+          .append("text")
+            .attr("x", 2)
+            .attr("y", y(y.ticks().pop()) + 0.5)
+            .attr("dy", "0.32em")
+            .attr("fill", "#000")
+            .attr("font-weight", "bold")
+            .attr("text-anchor", "start")
+            .text("Salary");
+
+        // Append legend
+        var legend = g.append("g")
+            .attr("font-family", "sans-serif")
+            .attr("font-size", 10)
+            .attr("text-anchor", "end")
+            .selectAll("g")
+            .data(keys.slice().reverse())
+          .enter().append("g")
+            .attr("transform", function(d, i) { 
+                return "translate(10," + (i * (0.035*w) + h/1.5) + ")"; 
+            });
+
+        // Append colored rectangles for each type/region color to legend
+        legend.append("rect")
+            .attr("x", w - 25)
+            .attr("width", 0.03*w)
+            .attr("height", 0.03*w)
+            .attr("fill", z)
+            .attr("stroke", z)
+            .attr("stroke-width",2)
+            .style("cursor", "pointer")
+            .on("click",function(d) { update(d, num) });
+
+        // Append color labels for each type/region to legend
+        legend.append("text")
+            .attr("x", w - 30)
+            .attr("y", 9.5)
+            .attr("dy", "0.32em")
+            .attr("font-size", "8px")
+            .attr("font-weight", "bold")
+            .text(function(d) {
+                if(groups.includes(d))
+                    return d;
+                else
+                      return "Selected School";
+            });
+
+        var filtered = [];  // Array to hold filtered out regions/types
+
+        // Function to update chart when a filter has been applied 
+        function update(d, num) {
+            // Push clicked key if not already included
+            if (filtered.indexOf(d) == -1) {
+                filtered.push(d);
+                if(filtered.length == keys.length) // if no filter, reset
+                    filtered = [];
+            }
+            else 
+                filtered.splice(filtered.indexOf(d), 1); // else remove it
+                
+            // Update the x and y scales for each group's items
+            var newKeys = [];
+            keys.forEach(function(d) {
+                if (filtered.indexOf(d) == -1 ) {
+                    newKeys.push(d);
+                }
+            });
+            x1.domain(newKeys).rangeRound([0, x0.bandwidth()]);
+            y.domain([0, d3.max(data, function(d) { 
+                return d3.max(keys, function(key) { 
+                    if (filtered.indexOf(key) == -1) 
+                        return d[key]; 
+                }); 
+            })]).nice();
+
+            // Fetch SVG object
+            var svg = d3.select("#gbSVG");
+
+            // Update the y axis:
+            svg.select(".y" + num)
+                .transition()
+                .call(d3.axisLeft(y).ticks(null, "s"))
+                .duration(500);
+
+            // Filter out the bars that need to be hidden
+            var bars = svg.selectAll(".bar" + num).selectAll("rect")
+                    .data(function(d) { 
+                        return keys.map(function(key) { 
+                            return {group:d.Group, key:key, value:d[key]}; 
+                        }); 
+                    })
+                    .on("mouseover", bar_mouseOver)
+                    .on("mouseout", bar_mouseOut);
+
+            bars.filter(function(d) {return filtered.indexOf(d.key) > -1;})
+                .transition()
+                .attr("x", function(d) {
+                    return (+d3.select(this).attr("x")) + 
+                            (+d3.select(this).attr("width"))/2;
+                })
+                .attr("height",0)
+                .attr("width",0)
+                .attr("y", function(d) { return h; })
+                .duration(500);
+
+            // Adjust the remaining bars to display
+            bars.filter(function(d) { return filtered.indexOf(d.key) == -1; })
+                .transition()
+                .attr("x", function(d) { return x1(d.key); })
+                .attr("y", function(d) { return y(d.value); })
+                .attr("height", function(d) { return h - y(d.value); })
+                .attr("width", x1.bandwidth())
+                .attr("fill", function(d) { return z(d.key); })
+                .duration(500);
+
+            // Update legend
+            legend.selectAll("rect")
+                .transition()
+                .attr("fill",function(d) {
+                    if (filtered.length) {
+                        if (filtered.indexOf(d) == -1) { return z(d); }
+                        else { return "white"; }
+                    }
+                    else { return z(d); }
+                })
+                .duration(100);
+        }
+    }
+
+</script>
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ----------------------------- Search Bar Code ------------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<!-- JS and CSS SCripts -->
+<script src="js/select2.min.js"></script> <!-- search bar script -->
+<link rel="stylesheet" href="css/select2.css"></link> <!-- search bar css -->
+
+<script type="text/javascript">
+
+    // Function to handle search performed in the search bar
+    function handleSearch(elem){
+        var school = elem.object.text; // Pull school name
+        var d;
+
+        // Pull data associate with school name
+        for(var i = 0; i < searchBar_data.length; i++){
+            if(school == searchBar_data[i]["School Name"]){
+                d = searchBar_data[i];
+                break;
+            }
+        }
+        // React to selected school
+        selectSchool(d);
+    }
+
+    // Fill search bar data and provide default placeholder
+    $("#school_searchBar").select2({  
+        data: searchBar_keys,
+        containerCssClass: "search",
+        placeholder: "College Search"
+    });
+
+    // React to search in search bar
+    $("#school_searchBar").on("select2-selecting", handleSearch); 
+
+</script>
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  -------------------------- End of Search Bar Code --------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+
+<!----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  ------------------------------- Main Code ----------------------------------
+  ----------------------------------------------------------------------------
+  --------------------------------------------------------------------------->
+
+<script type="text/javascript">
+
+    // Draw initial state of the viz
+    draw_map();
+    draw_bar([]);
+    draw_grouped();
+
+</script>
+
+</body> 
