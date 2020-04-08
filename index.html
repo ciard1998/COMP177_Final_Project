@@ -561,9 +561,13 @@
         if(major == "MIS")
             major = "Management Information Systems (MIS)";
 
+        // Rename 50th Percentile to Median
+        var group = d.key;
+        if(group == "Mid-Career 50th Percentile") group = "Mid-Career Median";
+
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
-        d3.select("#tooltip").html(tooltipHtml(major + " " + d.key + ": $" 
+        d3.select("#tooltip").html(tooltipHtml(major + " " + group + ": $" 
             + d[1].toLocaleString())) 
           .style("left", (d3.event.pageX) + "px")     
           .style("top", (d3.event.pageY - 28) + "px");
@@ -783,8 +787,8 @@
     // Function to react to mouseover on bar object in grouped bar chart
     function bar_mouseOver(d){
         // Pull bar group name and replace shorthand abbr for full version
-        group = d.group.replace("MC", "Mid-Career")
-                        .replace("th", "th Percentile");
+        var group = d.group.replace("MC", "Mid-Career")
+                            .replace("th", "th Percentile");
 
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
