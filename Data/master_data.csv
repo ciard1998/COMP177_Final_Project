@@ -1,0 +1,322 @@
+School Name,Type,Region,State,Longitude,Latitude,Starting Median Salary,Mid-Career Median Salary,Mid-Career 10th Percentile Salary,Mid-Career 25th Percentile Salary,Mid-Career 75th Percentile Salary,Mid-Career 90th Percentile Salary,1st,2nd,3rd,4th,5th
+Adelphi University,Private,Northeastern,NY,-73.653321,40.721439,40600,79200,44200,54800,114000,160000,Nursing,Biology,Business Management,Psychology,Nutrition
+"American University, Washington D.C.",Private,Southern,DC,-77.088947,38.93694264,45300,90800,45200,62400,134000,169000,International Relations,Business Management,Political Science,International Relations,Economics
+Amherst College,Liberal Arts,Northeastern,MA,-72.518493,42.372459,54500,107000,,84900,162000,,Math,Economics,English,Psychology,Political Science
+Appalachian State University,State,Southern,NC,-81.67752,36.2126825,40400,69100,37200,50400,90800,115000,Psychology,Nutrition,Nursing,Business Management,Education
+Arizona State University (ASU),Party,Western,AZ,-111.928001,33.424564,47400,84100,44600,60700,114000,163000,Business Management,Psychology,Biology,Finance,Marketing
+Arkansas State University (ASU),State,Southern,AR,-90.679586,35.841082,38700,63300,33600,45300,83900,118000,Nursing,Business Management,Biology,Education,Nutrition
+Auburn University,State,Southern,AL,-85.492409,32.600201,45400,84700,45400,62700,109000,145000,Biology,Mechanical Engineering,Business Management,Nutrition,Finance
+Austin Peay State University,State,Southern,TN,-87.354081,36.5333193,37700,59200,32200,40500,73900,96200,Education,Nursing,Criminal Justice,Psychology,Business Management
+Ball State University (BSU),State,Midwestern,IN,-85.408777,40.19996994,39100,64500,35500,48200,89300,128000,Communications,Psychology,Nursing,Business Management,Education
+Bates College,Liberal Arts,Northeastern,ME,-70.203333,44.10529918,47300,96500,,60700,162000,,Economics,Political Science,Psychology,Biology,Sociology
+Baylor University,Private,Southern,TX,-97.118453,31.54614957,48300,88600,46300,60700,130000,200000,Biology,Nursing,Accounting,Marketing,Business Management
+Binghamton University,State,Northeastern,NY,-75.971143,42.088049,53600,95900,50900,71200,146000,201000,Economics,Psychology,Biology,Accounting,Nursing
+Black Hills State University,State,Midwestern,SD,-103.871756,44.49514137,35300,43900,27000,32200,60900,87600,Business Management,Education,Biology,Sociology,Communications
+Boise State University (BSU),State,Western,ID,-116.205789,43.60440317,40800,69500,37400,48700,87500,110000,Business Management,Nursing,Communications,Health Care Administration,Psychology
+Boston College,Private,Northeastern,MA,-71.169242,42.33620322,52700,103000,48900,70000,143000,195000,Economics,Finance,Psychology,Communications,Biology
+Boston University,Private,Northeastern,MA,-71.09984,42.349581,49000,93900,48000,64900,130000,193000,Business Management,Communications,Economics,Psychology,International Relations
+Bowdoin College,Liberal Arts,Northeastern,ME,-69.963942,43.907134,48100,107000,,74600,146000,,Political Science,Economics,Math,Biology,Computer Science
+Bowling Green State University,State,Midwestern,OH,-83.637531,41.377036,39800,72100,38200,51800,101000,146000,Education,Biology,Psychology,English,Accounting
+Bradley University,Private,Midwestern,IL,-89.616847,40.69823294,47000,87300,45900,64900,113000,151000,Nursing,Mechanical Engineering,Accounting,Business Management,Civil Engineering
+Brigham Young University (BYU),Private,Western,UT,-111.6493,40.2518,49400,88600,50600,68500,119000,164000,Psychology,Nutrition,Accounting,Economics,Education
+Brown University,Ivy League,Northeastern,RI,-71.402925,41.82685309,56200,109000,55400,74400,159000,228000,Computer Science,Economics,Biology,Math,Political Science
+Bucknell University,Liberal Arts,Northeastern,PA,-76.885192,40.95370378,54100,110000,62800,80600,156000,251000,Economics,Political Science,Psychology,Accounting,Biology
+Cal Poly San Luis Obispo,State,California,CA,-120.661597,35.30237596,57200,101000,55000,74700,133000,178000,Business Management,Mechanical Engineering,Biology,Civil Engineering,Computer Science
+California Institute of Technology (CIT),Engineering,California,CA,-118.125567,34.13918094,75500,123000,,104000,161000,,Computer Science,Physics,Electrical Engineering,Chemical Engineering,Mechanical Engineering
+"California State University (CSU), Chico",State,California,CA,-121.846333,39.728003,47400,88100,46800,62800,122000,154000,Business Management,Communications,Psychology,Health Care Administration,Education
+"California State University (CSU), Stanislaus",State,California,CA,-120.852511,37.52577,38000,71400,33700,50500,94100,121000,Business Management,Psychology,Criminal Justice,Sociology,Education
+"California State University, Dominguez Hills (CSUDH)",State,California,CA,-118.258948,33.86528236,42700,72100,30800,47000,92200,132000,Business Management,Psychology,Sociology,Criminal Justice,Health Care Administration
+"California State University, East Bay (CSUEB)",State,California,CA,-122.058073,37.65707038,49200,84300,46000,62400,115000,155000,Business Management,Health Care Administration,Criminal Justice,Psychology,Sociology
+"California State University, Fullerton (CSUF)",State,California,CA,-117.885659,33.88326053,45700,87000,45400,62500,119000,158000,Business Management,Communications,Psychology,Health Care Administration,Education
+"California State University, Long Beach (CSULB)",State,California,CA,-118.11204,33.78281817,45100,84700,47400,62500,113000,154000,Business Management,Psychology,Communications,Sociology,Education
+"California State University, Northridge (CSUN)",State,California,CA,-118.529286,34.2400409,45500,80400,44500,57800,108000,153000,Psychology,Business Management,Sociology,Education,Film
+"California State University, Sacramento (CSUS)",State,California,CA,-121.422416,38.55990059,47800,82400,42900,59600,111000,154000,Business Management,Communications,Psychology,Criminal Justice,Education
+Carleton College,Liberal Arts,Midwestern,MN,-93.154662,44.46230352,47500,103000,,69400,141000,,Computer Science,Biology,International Relations,Economics,Math
+Carnegie Mellon University (CMU),Engineering,Northeastern,PA,-79.943485,40.44359759,61800,111000,63300,80100,150000,209000,Computer Science,Electrical Engineering,Math,Business Management,Mechanical Engineering
+Case Western Reserve University,Private,Midwestern,OH,-81.604893,41.50409549,56200,96500,54900,76500,123000,168000,Biology,Mechanical Engineering,Computer Science,Nursing,Psychology
+Clemson University,State,Southern,SC,-82.834463,34.677329,48400,86000,50500,61800,111000,150000,Industrial Engineering,Business Management,Marketing,Biology,Psychology
+Cleveland State University,State,Midwestern,OH,-81.674355,41.50228136,43500,73100,39500,51600,97000,137000,Psychology,Nursing,Business Management,Biology,Mechanical Engineering
+Colby College,Liberal Arts,Northeastern,ME,-69.66337,44.56421114,46400,85800,,63500,129000,,Economics,Political Science,Math,Biology,Psychology
+Colgate University,Liberal Arts,Northeastern,NY,-75.535218,42.8181753,52800,108000,60000,76700,167000,265000,Economics,Political Science,Psychology,English,Biology
+College of the Holy Cross,Liberal Arts,Northeastern,MA,-71.808627,42.23894237,50200,106000,,65600,143000,,Economics,Psychology,Political Science,History,English
+Colorado College (CC),Liberal Arts,Western,CO,-104.822678,38.84885428,38500,81400,,43000,148000,,Economics,Political Science,Biology,Sociology,Physics
+Colorado School of Mines,Engineering,Western,CO,-105.222907,39.74909154,58100,106000,62200,87900,142000,201000,Mechanical Engineering,Computer Science,Chemical Engineering,Physics,Electrical Engineering
+Colorado State University (CSU),State,Western,CO,-105.0865,40.5734,44800,79000,43800,57100,112000,150000,Business Management,Nutrition,Psychology,Mechanical Engineering,Communications
+Columbia University,Ivy League,Northeastern,NY,-73.961885,40.80828575,59400,107000,50300,71900,161000,241000,Economics,Computer Science,Political Science,Psychology,History
+Cooper Union,Engineering,Northeastern,NY,-73.990516,40.72937982,62200,114000,,80200,142000,,Graphic Design,Mechanical Engineering,Electrical Engineering,Chemical Engineering,Architecture
+Cornell University,Ivy League,Northeastern,NY,-76.476535,42.448713,60300,110000,56800,79800,160000,210000,Biology,Computer Science,Business Management,Hospitality & Tourism,Agriculture
+Dallas Baptist University,Private,Southern,TX,-96.946994,32.71010015,39400,60200,38500,50300,81800,98100,Business Management,Biology,Psychology,Education,Finance
+Dartmouth College,Ivy League,Northeastern,NH,-71.9887,43.7044,58000,134000,63100,90200,234000,321000,Economics,Political Science,Computer Science,Biology,History
+Davenport University,Private,Midwestern,MI,-85.529655,42.84971259,39700,46600,31600,38100,65600,85700,Nutrition,Business Management,Criminal Justice,Health Care Administration,Nursing
+Davidson College,Liberal Arts,Southern,NC,-80.845236,35.50000638,46100,104000,,70500,146000,,Political Science,Economics,Biology,English,Psychology
+Denison University,Liberal Arts,Midwestern,OH,-82.520625,40.0725823,42000,83500,,62100,122000,,Economics,Communications,English,Computer Science,Biology
+DePaul University,Private,Midwestern,IL,-87.654116,41.92333183,46400,84800,50300,63900,115000,160000,Economics,Communications,Biology,Psychology,History
+DePauw University,Liberal Arts,Midwestern,IN,-86.863556,39.63953025,41400,88300,49500,57400,133000,185000,Accounting,Finance,International Relations,Psychology,Marketing
+Dowling College,Private,Northeastern,NY,-73.14491,40.73991,41100,82800,46500,60600,117000,142000,Communications,Computer Science,Education,English,Math
+Drexel University,Private,Northeastern,PA,-75.188745,39.95485501,53400,93500,54900,72500,122000,161000,Nursing,Accounting,Mechanical Engineering,Marketing,MIS
+Duke University,Private,Southern,NC,-78.938597,36.00234351,58900,106000,56000,77400,149000,218000,Computer Science,Economics,International Relations,Biology,Psychology
+Duquesne University,Private,Northeastern,PA,-79.993046,40.437496,40700,84400,42600,59500,107000,131000,Nursing,Marketing,Biology,Finance,Accounting
+East Carolina University (ECU),State,Southern,NC,-77.366199,35.606347,40200,67500,38400,52000,98700,151000,Communications,Nursing,Education,Business Management,Criminal Justice
+Eastern Michigan University,State,Midwestern,MI,-83.625156,42.250277,40300,72100,37900,52800,95400,135000,Nursing,Psychology,Business Management,Communications,Education
+Eastern Washington University,State,Western,WA,-117.589371,47.49129315,38600,70900,36000,50500,93100,117000,Business Management,Biology,Psychology,Communications,Criminal Justice
+Embry-Riddle Aeronautical University (ERAU),Engineering,Southern,FL,-81.04951,29.18926994,52700,80700,49800,64000,106000,142000,Aerospace Engineering,Business Management,Mechanical Engineering,Psychology,Physics
+Emory University,Private,Southern,GA,-84.325818,33.79326806,52000,91600,52500,63300,128000,192000,Business Management,Nursing,Biology,Economics,Psychology
+Evergreen State College,Liberal Arts,Western,WA,-122.977492,47.07381966,39500,63900,38800,47200,91600,120000,Biology,Business Management,Film,Psychology,English
+Fairleigh Dickinson University,Private,Northeastern,NJ,-74.435359,40.77736403,45700,78700,40200,56300,112000,171000,Psychology,Nursing,Criminal Justice,Business Management,Biology
+Fashion Institute of Technology,Private,Northeastern,NY,-73.994781,40.74730956,42800,81000,38800,60500,106000,138000,Business Management,Marketing,Graphic Design,Interior Design,Art History
+Fitchburg State College,State,Northeastern,MA,-71.789354,42.58934514,42400,72600,43300,56100,99600,151000,Business Management,Nursing,Film,Biology,Psychology
+Florida Atlantic University (FAU),State,Southern,FL,-80.102978,26.37242138,42600,71100,40700,53000,99500,137000,Psychology,Biology,Criminal Justice,Business Management,Accounting
+Florida International University (FIU),State,Southern,FL,-80.377591,25.75711094,43200,75500,40500,55800,98200,136000,Psychology,Communications,Biology,Hospitality & Tourism,Finance
+Florida Metropolitan University (FMU),Private,Southern,FL,-80.11431,26.13869,36600,51000,32800,36800,70400,102000,Accounting,Business Management,Criminal Justice,Computer Science,International Relations
+Florida State University (FSU),Party,Southern,FL,-84.301554,30.443222,42100,73000,39600,52800,107000,156000,Psychology,Finance,Marketing,Criminal Justice,English
+Fordham University,Private,Northeastern,NY,-73.889899,40.8614117,47800,99900,48600,65900,142000,198000,Communications,Economics,Business Management,Finance,Psychology
+Fort Lewis College,Liberal Arts,Western,CO,-107.867003,37.27542817,42000,69800,,55000,94000,,Business Management,Nutrition,Biology,Psychology,Art History
+Franklin and Marshall College,Liberal Arts,Northeastern,PA,-76.319037,40.048045,49100,92800,,55800,185000,,Business Management,Political Science,Economics,Psychology,Biology
+George Mason University,State,Southern,VA,-77.30794,38.83088029,47800,86900,51300,67200,114000,150000,Psychology,Criminal Justice,Accounting,Information Technology (IT),Biology
+George Washington University (GWU),Private,Southern,DC,-77.046277,38.8990964,47000,97900,48400,69600,132000,194000,International Relations,Political Science,Nursing,Economics,Finance
+Georgetown University,Private,Southern,DC,-77.073463,38.90880927,55000,110000,60300,85800,174000,248000,Political Science,International Relations,Finance,Economics,Psychology
+Georgia Institute of Technology,Engineering,Southern,GA,-84.396019,33.77373183,58300,106000,67200,85200,137000,183000,Information Technology (IT),Mechanical Engineering,Business Management,Industrial Engineering,Chemical Engineering
+Georgia State University,State,Southern,GA,-84.38667,33.75269954,41800,74000,43000,55300,99900,145000,Psychology,Finance,Biology,Marketing,Journalism
+Gettysburg College,Liberal Arts,Northeastern,PA,-77.234533,39.83584149,44700,85800,,66300,132000,,Economics,Political Science,Business Management,Nutrition,Psychology
+Gonzaga University,Private,Western,WA,-117.403062,47.668144,44900,76000,47000,57400,103000,138000,Business Management,Biology,Mechanical Engineering,Psychology,Accounting
+Grinnell College,Liberal Arts,Midwestern,IA,-92.721432,41.74636255,42600,76600,,65100,116000,,Economics,Computer Science,Political Science,Biology,Psychology
+Gustavus Adolphus College,Liberal Arts,Midwestern,MN,-93.971928,44.324968,44500,80600,,49300,101000,,Psychology,Business Management,Biology,Economics,Political Science
+Hamilton College,Liberal Arts,Northeastern,NY,-75.407996,43.05424753,49200,83700,,51900,123000,,Economics,Math,Political Science,International Relations,Biology
+Harvard University,Ivy League,Northeastern,MA,-71.118234,42.37417202,63400,124000,54800,86200,179000,288000,Economics,Computer Science,Political Science,History,Sociology
+Harvey Mudd College,Engineering,California,CA,-117.709758,34.10571676,71800,122000,,96000,180000,,Mechanical Engineering,Computer Science,Physics,Math,Chemistry
+Hofstra University,Private,Northeastern,NY,-73.60078,40.71595869,46800,92700,48900,67000,135000,189000,Drama,Psychology,Marketing,Business Management,Finance
+Howard University,Private,Southern,DC,-77.019478,38.92073881,46900,81800,43300,60000,109000,138000,Biology,International Relations,Political Science,Communications,Psychology
+Humboldt State University,State,California,CA,-124.077255,40.87545198,42600,71300,36000,56300,94400,117000,Biology,Business Management,Psychology,Education,Forestry
+Idaho State University,State,Western,ID,-112.429084,42.86410777,44900,73400,35400,49600,101000,143000,Nursing,Business Management,Health Care Administration,Education,Psychology
+Illinois Institute of Technology (IIT),Engineering,Midwestern,IL,-87.628346,41.83380065,56000,97800,56100,77400,121000,165000,Architecture,Mechanical Engineering,Electrical Engineering,Computer Science,Information Technology (IT)
+Illinois State University,State,Midwestern,IL,-88.99234,40.50972361,42000,73400,39100,55200,105000,142000,Finance,Marketing,Agriculture,Accounting,MIS
+"Indiana University (IU), Bloomington",Party,Midwestern,IN,-86.523585,39.16773929,46300,84000,43600,60400,119000,178000,Business Management,MIS,Computer Science,Nutrition,Biology
+Indiana Wesleyan University (IWU),Private,Midwestern,IN,-85.677881,40.5112,39800,58500,39600,47800,78600,93400,Nursing,Liberal Arts,Business Management,Religion,Education
+Iowa State University,State,Midwestern,IA,-93.65024,42.025303,45400,84600,44400,60000,109000,147000,Mechanical Engineering,Agriculture,Nutrition,Marketing,Finance
+Ithaca College,Liberal Arts,Northeastern,NY,-76.495057,42.42263969,42700,87400,50200,62400,128000,174000,Business Management,Drama,Film,Journalism,Communications
+Jacksonville University,Private,Southern,FL,-81.606507,30.35084316,46700,66200,36700,47200,88500,121000,Nursing,Nutrition,MIS,Business Management,Sociology
+Juniata College,Liberal Arts,Northeastern,PA,-78.015158,40.49949291,41800,78900,,67200,110000,,Nursing,Business Management,Communications,Psychology,Accounting
+Kansas State University (KSU),State,Midwestern,KS,-96.581077,39.188616,43300,79000,37200,54100,106000,138000,Business Management,Mechanical Engineering,Finance,Marketing,Education
+Kent State University,State,Midwestern,OH,-81.337128,41.151603,38700,62600,36100,45800,87000,124000,Nursing,Psychology,Business Management,Marketing,Communications
+La Salle University (Philadelphia),Private,Northeastern,PA,-75.151926,40.03867306,43400,84700,45300,57500,106000,151000,Nursing,Psychology,Marketing,Communications,Finance
+Lafayette College,Liberal Arts,Northeastern,PA,-75.211342,40.69951263,53900,107000,70600,79300,144000,204000,Economics,Political Science,Mechanical Engineering,Psychology,International Relations
+Lamar University,State,Southern,TX,-94.073389,30.044274,46500,79400,38700,51600,114000,158000,Nursing,Business Management,Criminal Justice,Mechanical Engineering,Chemical Engineering
+"Lee University (Cleveland, TN)",Private,Southern,TN,-84.870018,35.16616609,34500,53900,,44500,76800,,Business Management,Education,Mechanical Engineering,Aerospace Engineering,Civil Engineering
+Lehigh University,Private,Northeastern,PA,-75.377095,40.6066257,59200,105000,69500,85000,160000,229000,Business Management,Psychology,Religion,Nutrition,Communications
+LeTourneau University,Private,Southern,TX,-94.72726,32.46765824,49500,73800,41200,52700,95200,126000,Finance,Mechanical Engineering,Computer Science,Accounting,Marketing
+Lewis & Clark College,Liberal Arts,Western,OR,-122.670337,45.45153924,38900,72600,38200,53400,104000,140000,Psychology,Biology,International Relations,English,Sociology
+Long Island University,Private,Northeastern,NY,-73.5901,40.8172,47300,93200,46300,62100,122000,169000,Nursing,Business Management,Nutrition,Psychology,Biology
+Louisiana State University (LSU),Party,Southern,LA,-91.18,30.4133,46900,87800,43700,61300,120000,165000,Communications,Biology,Education,Business Management,Marketing
+Marquette University,Private,Midwestern,WI,-87.931088,43.03718292,48500,88400,49500,67400,121000,184000,Finance,Nursing,Biology,Marketing,Psychology
+Massachusetts Institute of Technology (MIT),Engineering,Northeastern,MA,-71.092115,42.36009534,72200,126000,76800,99200,168000,220000,Computer Science,Mechanical Engineering,Math,Physics,Electrical Engineering
+Mercy College,Private,Northeastern,NY,-73.874571,41.02143627,43700,62600,35600,47300,99000,134000,Business Management,Sociology,Health Care Administration,Psychology,Criminal Justice
+Michigan State University (MSU),State,Midwestern,MI,-84.473639,42.72476,46300,85300,44200,61500,119000,170000,Marketing,Communications,Economics,Biology,Finance
+Middlebury College,Liberal Arts,Northeastern,VT,-73.176068,44.009117,47700,94200,,69100,129000,,Economics,Political Science,Computer Science,Psychology,International Relations
+Minnesota State University - Mankato,State,Midwestern,MN,-93.998494,44.147253,43300,74700,39500,53800,95700,140000,Nursing,Communications,Psychology,Business Management,Marketing
+Mississippi College,Private,Southern,MS,-90.330452,32.33456492,35400,60400,,43900,80400,,Nursing,Biology,Nutrition,Accounting,Education
+Mississippi State University (MSU),State,Southern,MS,-88.790826,33.451697,44500,79300,43300,58800,108000,151000,Nutrition,Business Management,Mechanical Engineering,Communications,Marketing
+Missouri State University (MSU),State,Midwestern,MO,-93.2807,37.2006,36100,69500,33300,46900,102000,134000,Business Management,Psychology,Education,Communications,Marketing
+Montana State University - Billings,State,Western,MT,-108.523009,45.79689588,37900,50600,,31800,78500,,Business Management,Education,Nursing,Criminal Justice,MIS
+Montana State University - Bozeman,State,Western,MT,-111.0546,45.6674,46600,77500,40200,58100,111000,151000,Business Management,Nursing,Mechanical Engineering,Chemical Engineering,Biology
+Moravian College,Liberal Arts,Northeastern,PA,-75.380979,40.63088812,42500,74400,,56700,94900,,Nursing,Business Management,Psychology,Economics,Sociology
+Morehead State University,State,Southern,KY,-83.429742,38.188462,34800,60600,34300,46500,72000,91300,Nursing,Education,Business Management,Agriculture,Accounting
+Mount Holyoke College,Liberal Arts,Northeastern,MA,-72.573625,42.25758777,42400,94200,,57100,131000,,Economics,Computer Science,Biology,Psychology,English
+New Mexico Institute of Mining and Technology (New Mexico Tech),Engineering,Western,NM,-106.907701,34.06618984,51000,93400,,67400,123000,,Mechanical Engineering,Chemical Engineering,Computer Science,Electrical Engineering,Biology
+New Mexico State University,State,Western,NM,-106.747841,32.282875,44300,79500,37400,53800,102000,131000,Business Management,Nursing,Criminal Justice,Mechanical Engineering,Marketing
+New York University (NYU),Private,Northeastern,NY,-73.997264,40.7294519,50300,95600,47500,65000,142000,216000,Economics,Business Management,Nursing,Film,Drama
+Niagara University,Private,Northeastern,NY,-79.036689,43.137279,36900,69700,44000,57000,92000,128000,Business Management,Nursing,Criminal Justice,Accounting,Information Technology (IT)
+North Carolina State University (NCSU),State,Southern,NC,-78.674517,35.78511061,47200,83300,49200,64800,112000,153000,Business Management,Biology,Mechanical Engineering,Communications,Psychology
+North Dakota State University (NDSU),State,Midwestern,ND,-96.805689,46.89452277,45100,77800,39000,55800,100000,123000,Nursing,Mechanical Engineering,Business Management,Psychology,Agriculture
+Northeastern University,Private,Northeastern,MA,-71.088069,42.34018276,50500,86400,47100,62700,117000,159000,Business Management,Economics,Mechanical Engineering,Information Technology (IT),Communications
+Northern Illinois University (NIU),State,Midwestern,IL,-88.766065,41.93379093,43600,80800,43900,60200,111000,161000,Accounting,Communications,Psychology,Health Care Administration,Nursing
+Northwestern University,Private,Midwestern,IL,-87.673653,42.05837717,52700,95900,51900,69100,144000,205000,Economics,Psychology,Journalism,Biology,Political Science
+Oberlin College,Liberal Arts,Midwestern,OH,-82.221786,41.29473992,43400,81600,,46400,128000,,Music,Political Science,Biology,Economics,Psychology
+Occidental College,Liberal Arts,California,CA,-118.210783,34.1262239,51900,105000,,54800,157000,,Economics,International Relations,Biology,Math,Sociology
+Ohio State University (OSU),State,Midwestern,OH,-83.008792,39.99949343,44900,83700,45500,60700,116000,162000,Finance,Psychology,Communications,Marketing,Accounting
+Ohio University,Party,Midwestern,OH,-82.103503,39.323839,42200,73400,36600,52800,106000,150000,Nursing,Business Management,Communications,Marketing,Journalism
+Oklahoma City University,Private,Southern,OK,-97.541242,35.49527098,40000,64300,,45400,80600,,Nursing,Music,Drama,Film,Business Management
+Oklahoma State University,State,Southern,OK,-97.069743,36.12308498,42800,80700,40100,56500,114000,151000,Business Management,Marketing,Mechanical Engineering,Finance,Accounting
+Oregon State University (OSU),State,Western,OR,-123.278711,44.563109,45100,83300,46900,64000,113000,146000,Computer Science,Business Management,Mechanical Engineering,Psychology,Biology
+Pace University,Private,Northeastern,NY,-74.004874,40.71170978,53200,89700,44200,65400,129000,187000,Business Management,Nursing,Communications,Finance,Accounting
+Park University,Private,Midwestern,MO,-94.677086,39.18947692,44300,64300,37200,45600,86400,113000,Business Management,Psychology,Criminal Justice,Information Technology (IT),MIS
+Penn State - Harrisburg,State,Northeastern,PA,-76.741961,40.20523447,45700,74000,44000,53100,104000,150000,Mechanical Engineering,Civil Engineering,Information Technology (IT),Accounting,Criminal Justice
+Pennsylvania State University (PSU),Party,Northeastern,PA,-77.861644,40.800732,49900,85700,46300,62000,117000,160000,Information Technology (IT),Biology,Economics,Finance,Mechanical Engineering
+Philadelphia University,Private,Northeastern,PA,-75.1927,40.0197,45100,80300,45800,61900,108000,141000,Architecture,Business Management,Health Care Administration,Graphic Design,Art History
+Pittsburg State University,State,Midwestern,KS,-94.702483,37.39205667,40400,58200,25600,46000,84600,117000,Nursing,Education,Business Management,Psychology,Communications
+"Polytechnic University of New York, Brooklyn",Engineering,Northeastern,NY,-73.9866,40.6942,62400,114000,66800,94300,143000,190000,Mechanical Engineering,Electrical Engineering,Computer Science,Physics,Chemical Engineering
+Pomona College,Liberal Arts,California,CA,-117.711944,34.09829827,48600,101000,,63300,161000,,Economics,Math,Computer Science,Psychology,Physics
+Portland State University (PSU),State,Western,OR,-122.684197,45.51169772,42600,70900,40700,52300,94400,123000,Health Care Administration,Psychology,Business Management,Sociology,Marketing
+Pratt Institute,Private,Northeastern,NY,-73.962149,40.69115429,43800,89900,48600,65400,123000,155000,Architecture,Graphic Design,Interior Design,Art History,Film
+Princeton University,Ivy League,Northeastern,NJ,-74.657698,40.34714142,66500,131000,68900,100000,190000,261000,Computer Engineering,Economics,History,Political Science,Biology
+Providence College,Private,Northeastern,RI,-71.437906,41.84419284,48000,88600,42800,62900,138000,194000,Finance,Business Management,Marketing,Biology,Psychology
+Purdue University,State,Midwestern,IN,-86.914435,40.428206,51400,90500,49900,67400,121000,168000,Business Management,Mechanical Engineering,Computer Science,Industrial Engineering,Math
+Quinnipiac University,Private,Northeastern,CT,-72.894115,41.41890787,43000,76500,47900,57400,117000,155000,Health Care Administration,Nursing,Business Management,Finance,Psychology
+Randolph-Macon College,Party,Southern,VA,-77.4781,37.76078507,42600,83600,,54100,123000,,Business Management,Biology,Communications,Psychology,Political Science
+Reed College,Liberal Arts,Western,OR,-122.630348,45.48095914,40500,81100,,67400,101000,,Psychology,Biology,English,Physics,History
+Regis University,Private,Western,CO,-105.030756,39.78817522,48300,73800,41000,55500,94800,117000,Nursing,Business Management,Computer Science,Accounting,Communications
+Rensselaer Polytechnic Institute (RPI),Engineering,Northeastern,NY,-73.678768,42.72898349,61100,110000,71600,85500,140000,182000,Computer Science,Mechanical Engineering,Chemical Engineering,Electrical Engineering,Business Management
+Rice University,Engineering,Southern,TX,-95.404977,29.71621847,64000,110000,55900,82100,141000,216000,Economics,Information Technology (IT),Chemical Engineering,Nutrition,Mechanical Engineering
+Rider University,Private,Northeastern,NJ,-74.736978,40.28049488,43600,88900,47100,63100,127000,150000,Business Management,Psychology,Accounting,Education,Finance
+Robert Morris College (RMC),Private,Midwestern,PA,-80.211585,40.52067902,38500,68200,37300,47100,95000,128000,Nursing,Accounting,Business Management,Computer Science,Finance
+Rochester Institute of Technology (RIT),Engineering,Northeastern,NY,-77.673854,43.08443583,48900,84600,45000,62100,112000,159000,Mechanical Engineering,Computer Science,Electrical Engineering,Computer Engineering,Civil Engineering
+Roger Williams University,Private,Northeastern,RI,-71.260561,41.64820868,42000,72300,39800,48500,102000,138000,Criminal Justice,Marketing,Psychology,Architecture,Business Management
+Rutgers University,State,Northeastern,NJ,-74.447007,40.49953534,50300,91800,48100,65100,128000,176000,Information Technology (IT),Psychology,Economics,Biology,Nursing
+Sacred Heart University,Private,Northeastern,CT,-73.24461,41.22154751,46000,75300,39700,54800,105000,150000,Nursing,Business Management,Marketing,Psychology,Finance
+Saint Leo University,Private,Southern,FL,-82.257794,28.33678314,40900,57800,34400,41800,80600,113000,Business Management,Criminal Justice,Psychology,Health Care Administration,Accounting
+San Diego State University (SDSU),State,California,CA,-117.071228,32.7752498,46200,85200,45500,61800,116000,158000,Business Management,Psychology,Education,Criminal Justice,Communications
+San Francisco State University (SFSU),State,California,CA,-122.477905,37.72134502,47300,86400,45100,62700,114000,150000,Business Management,Biology,Psychology,Communications,Criminal Justice
+San Jose State University (SJSU),State,California,CA,-121.880459,37.33750869,53500,95600,50700,70500,122000,156000,Business Management,Psychology,Education,Communications,Computer Science
+Seattle University,Private,Western,WA,-122.3197,47.6101379,48300,82800,50600,62400,110000,150000,Nursing,Finance,Marketing,Psychology,Accounting
+Seton Hall University,Private,Northeastern,NJ,-74.248753,40.74285935,48900,89200,55700,70600,133000,195000,Biology,Nursing,Marketing,Finance,International Relations
+Siena College,Liberal Arts,Northeastern,NY,-73.751027,42.71862178,45500,85200,38700,58400,129000,189000,Marketing,Accounting,Psychology,Finance,Biology
+Skidmore College,Liberal Arts,Northeastern,NY,-73.785322,43.09702687,41600,74600,,42800,147000,,Business Management,English,Psychology,Political Science,Economics
+Smith College,Liberal Arts,Northeastern,MA,-72.638094,42.317933,44000,83900,45100,59800,129000,184000,Political Science,Psychology,Economics,Biology,English
+South Dakota School of Mines & Technology,Engineering,Midwestern,SD,-103.205753,44.07543935,55800,93400,71500,81900,122000,147000,Mechanical Engineering,Civil Engineering,Chemical Engineering,Industrial Engineering,Electrical Engineering
+South Dakota State University (SDSU),State,Midwestern,SD,-96.783415,44.31942,41100,73500,34100,49900,99400,129000,Business Management,Psychology,Education,Criminal Justice,Communications
+Southern Illinois University Carbondale,State,Midwestern,IL,-89.221214,37.717389,43000,72500,38300,51300,99300,139000,Nursing,Business Management,Psychology,Biology,Criminal Justice
+Southern Utah University,State,Western,UT,-113.070146,37.674617,41900,56500,,39700,78400,,Education,Nursing,Biology,Psychology,Accounting
+St. Cloud State University,State,Midwestern,MN,-94.152657,45.5532272,41800,71400,38700,49400,101000,126000,Communications,Business Management,Marketing,Finance,Criminal Justice
+"St. John's University, New York",Private,Northeastern,NY,-73.795027,40.72202659,48000,93400,48000,65400,124000,181000,Biology,Communications,Finance,Criminal Justice,Physician Assistant
+St. Olaf College,Liberal Arts,Midwestern,MN,-93.183318,44.46195598,45300,86200,41300,61000,120000,185000,Biology,Math,Economics,Psychology,Chemistry
+Stanford University,Private,California,CA,-122.175045,37.4329738,70400,129000,68400,93100,184000,257000,Computer Science,Biology,Mechanical Engineering,Economics,Psychology
+State University of New York (SUNY) at Albany,Party,Northeastern,NY,-73.825014,42.68691742,44500,92200,47000,63100,135000,209000,Biology,Psychology,Business Management,Economics,English
+State University of New York (SUNY) at Buffalo,State,Northeastern,NY,-78.880684,42.93369956,46200,81700,45900,61400,110000,147000,Business Management,Psychology,Sociology,Communications,Mechanical Engineering
+State University of New York (SUNY) at Farmingdale,State,Northeastern,NY,-73.4267,40.753,47300,84200,50200,59800,110000,162000,Business Management,Criminal Justice,Computer Science,Nursing,Biology
+State University of New York (SUNY) at Fredonia,State,Northeastern,NY,-79.3404,42.4539,37800,66200,32800,44200,93300,181000,Business Management,Psychology,Criminal Justice,International Relations,Information Technology (IT)
+State University of New York (SUNY) at Geneseo,State,Northeastern,NY,-77.821999,42.79686373,42300,81300,39300,47600,117000,173000,Psychology,Biology,Communications,Business Management,Accounting
+State University of New York (SUNY) at Oneonta,State,Northeastern,NY,-75.064,42.4695,37500,76700,40000,54300,97700,155000,Communications,Economics,Psychology,Biology,Education
+State University of New York (SUNY) at Oswego,State,Northeastern,NY,-76.543885,43.45377044,38000,77800,40400,53000,115000,169000,Business Management,Psychology,Drama,Education,Marketing
+State University of New York (SUNY) at Plattsburgh,State,Northeastern,NY,-73.466657,44.69308772,40800,76200,38400,54100,105000,136000,Business Management,Psychology,Criminal Justice,Nursing,Communications
+State University of New York (SUNY) at Potsdam,State,Northeastern,NY,-74.976889,44.662862,38000,70300,35100,51200,100000,179000,Business Management,Psychology,Education,Biology,Communications
+Stevens Institute of Technology,Engineering,Northeastern,NJ,-74.025334,40.744776,60600,105000,68700,81900,138000,185000,Mechanical Engineering,Computer Science,Business Management,Chemical Engineering,Civil Engineering
+Stony Brook University,State,Northeastern,NY,-73.12112,40.91554,49500,93000,47200,67100,129000,181000,Nutrition,Psychology,Business Management,Math,Biology
+Suffolk University,Private,Northeastern,MA,-71.060985,42.35801021,42100,74000,48700,57800,95100,145000,Finance,Marketing,Business Management,Communications,Accounting
+Swarthmore College,Liberal Arts,Northeastern,PA,-75.351639,39.90598596,49700,104000,,67200,167000,,Economics,Political Science,Biology,Math,Education
+Syracuse University,Party,Northeastern,NY,-76.13267,43.039891,45700,85900,46400,59400,119000,178000,Information Technology (IT),Psychology,Economics,Finance,Drama
+Tarleton State University (TSU),State,Southern,TX,-98.22008,32.21566501,40800,62400,32100,47400,80400,126000,Business Management,Nursing,Psychology,Nutrition,Agriculture
+Tennessee Technological University,Engineering,Southern,TN,-85.503957,36.17465917,46200,80000,42100,62600,99500,121000,Mechanical Engineering,Education,Business Management,Nursing,Education
+Texas A&M University,State,Southern,TX,-97.774883,31.0531369,49700,96100,51100,71300,131000,171000,Agriculture,Nutrition,Psychology,Biology,Business Management
+Texas Christian University (TCU),Private,Southern,TX,-97.361537,32.70956756,45100,78100,42600,56600,122000,183000,Nursing,Communications,Finance,Economics,Marketing
+Thomas Aquinas College,Liberal Arts,California,CA,-119.087141,34.429009,41500,67500,,44600,93100,,Criminal Justice,Psychology,Business Management,Education,Biology
+Tulane University,Private,Southern,LA,-90.120409,29.93969617,49100,95800,46500,64400,134000,185000,Finance,Business Management,Marketing,Health Care Administration,Economics
+Tusculum College,Private,Southern,TN,-82.761716,36.17255833,36900,55500,36200,43000,87300,124000,Business Management,Psychology,Nursing,Nutrition,Education
+Union College,Liberal Arts,Northeastern,KY,-83.887768,36.86913017,47200,95800,48700,75200,135000,230000,Economics,Biology,Mechanical Engineering,Political Science,Psychology
+University of Akron,State,Midwestern,OH,-81.5114,41.077,41100,70300,40600,53300,95200,127000,Economics,Math,Biology,International Relations,Political Science
+University of Alabama at Birmingham (UAB),State,Southern,AL,-86.80917,33.50223,39200,70100,43000,53400,91400,125000,Business Management,Psychology,Marketing,Nursing,Finance
+University of Alabama at Huntsville (UAH),State,Southern,AL,-86.6398,34.7251,43100,82700,46100,67800,106000,132000,Nursing,Business Management,Mechanical Engineering,Psychology,Marketing
+"University of Alabama, Tuscaloosa",Party,Southern,AL,-87.5391,33.214,41300,81400,40100,56500,117000,161000,Nursing,Business Management,Psychology,Health Care Administration,Biology
+"University of Alaska, Anchorage",State,Western,AK,-149.8196,61.191,45900,72600,39800,56600,99300,137000,Nursing,Mechanical Engineering,Business Management,Information Technology (IT),Accounting
+University of Arizona,State,Western,AZ,-110.950086,32.23286613,47500,86100,44800,61700,117000,160000,Finance,Business Management,Marketing,Nursing,Accounting
+University of Arkansas,State,Southern,AR,-94.177852,36.06564171,44100,82800,43200,60700,113000,160000,Nursing,Accounting,Psychology,Business Management,Mechanical Engineering
+University of Arkansas - Monticello (UAM),State,Southern,AR,-91.8136,33.5918,39200,74500,,46100,110000,,Psychology,Biology,Communications,Health Care Administration,Economics
+University of California at Los Angeles (UCLA),State,California,CA,-118.443901,34.0688923,52600,101000,51300,72500,139000,193000,Nursing,Finance,Marketing,Biology,Education
+"University of California, Berkeley",State,California,CA,-122.24851,37.875759,59900,112000,59500,81000,149000,201000,Nursing,Education,Construction,Business Management,MIS
+"University of California, Davis",State,California,CA,-121.75103,38.53820558,52300,99600,52000,71600,135000,202000,Economics,Political Science,Sociology,Biology,Psychology
+"University of California, Irvine (UCI)",State,California,CA,-117.837785,33.643163,48300,96700,47800,66000,123000,172000,Economics,Computer Science,Biology,Political Science,Business Management
+"University of California, Riverside (UCR)",State,California,CA,-117.328766,33.9745475,46800,81300,37200,59900,109000,134000,Psychology,Economics,Computer Science,Communications,Biology
+"University of California, San Diego (UCSD)",State,California,CA,-117.237794,32.87659766,51100,101000,51700,75400,131000,177000,Psychology,Biology,Computer Science,Economics,Health Care Administration
+"University of California, Santa Barbara (UCSB)",Party,California,CA,-119.851493,34.412344,50500,95000,51300,71200,129000,173000,Business Management,Biology,Psychology,Sociology,Economics
+"University of California, Santa Cruz (UCSC)",State,California,CA,-122.060726,36.99901842,44700,84100,46100,62000,121000,165000,Computer Science,Economics,Biology,Math,Psychology
+University of Central Florida (UCF),State,Southern,FL,-81.200889,28.60215943,42600,71700,39500,51500,98400,125000,Sociology,Economics,Psychology,Communications,International Relations
+University Of Chicago,Private,Midwestern,IL,-87.600922,41.79014558,53400,113000,62200,83300,174000,255000,Computer Science,Psychology,Economics,Sociology,Biology
+University of Colorado - Boulder (UCB),State,Western,CO,-105.267061,40.00441507,47100,97600,51600,69000,128000,187000,Psychology,Hospitality & Tourism,Health Care Administration,Nursing,Business Management
+University of Colorado - Denver,State,Western,CO,-104.839345,39.74521411,46100,84400,46400,58600,105000,144000,Economics,Computer Science,Biology,Political Science,Business Management
+University of Connecticut (UConn),State,Northeastern,CT,-72.256961,41.807658,48000,88800,46100,66400,120000,162000,Business Management,Nursing,Biology,Economics,Psychology
+University of Delaware,State,Southern,DE,-75.752833,39.678028,45900,84500,44500,64000,119000,165000,Psychology,Economics,Communications,Biology,Nursing
+University of Florida (UF),Party,Southern,FL,-82.361195,29.638248,47100,87900,45400,62900,120000,172000,Finance,Marketing,Nursing,Nutrition,Psychology
+University of Georgia (UGA),Party,Southern,GA,-83.37143,33.937727,44100,86000,43100,57800,118000,164000,Biology,Psychology,Mechanical Engineering,Finance,Political Science
+University of Hawaii,State,Western,HI,157.8171,21.2969,43800,76000,40400,56300,104000,128000,Finance,Psychology,Biology,Business Management,Marketing
+University of Houston (UH),State,Southern,TX,-95.344851,29.719988,46000,79900,42000,56200,106000,141000,Nutrition,Nursing,Psychology,Communications,Business Management
+University of Idaho,State,Western,ID,-117.024296,46.72689377,44900,82000,43000,56700,104000,142000,Psychology,Finance,Accounting,Nutrition,Biology
+University of Illinois at Chicago,State,Midwestern,IL,-87.650503,41.87183722,47500,81700,44700,58800,110000,146000,Psychology,Mechanical Engineering,Marketing,Finance,Business Management
+University of Illinois at Urbana-Champaign (UIUC),Party,Midwestern,IL,-88.228482,40.1083116,52900,96100,48200,68900,132000,177000,Psychology,Biology,Nursing,Finance,Nutrition
+University of Iowa (UI),Party,Midwestern,IA,-91.535698,41.66069518,44700,83900,43300,61100,116000,163000,Psychology,Economics,Accounting,Computer Science,Biology
+University of Kansas,State,Midwestern,KS,-95.258651,38.956474,42400,81600,44800,57200,115000,156000,Nutrition,Finance,Business Management,Psychology,Nursing
+University of Kentucky (UK),State,Southern,KY,-84.502517,38.028761,42800,78300,43000,57300,107000,149000,Journalism,Psychology,Finance,Nursing,Biology
+University of Louisiana (UL) at Lafayette,State,Southern,LA,-92.0204,30.2114,41100,76300,42000,54500,107000,163000,Marketing,Business Management,Nursing,Psychology,Finance
+University Of Maine,State,Northeastern,ME,-68.669332,44.899257,41200,72100,41700,55600,99300,141000,Nursing,Education,Business Management,Biology,Psychology
+University of Maryland Baltimore County (UMBC),State,Southern,MD,-76.711607,39.25668589,47000,77800,46900,59100,105000,130000,Biology,Psychology,Information Technology (IT),Computer Science,Economics
+"University of Maryland, College Park",Party,Southern,MD,-76.939704,38.98860655,52000,95000,50400,68300,126000,166000,Information Technology (IT),Economics,Biology,Criminal Justice,Finance
+University of Massachusetts (UMass) - Amherst,State,Northeastern,MA,-72.529312,42.388647,46600,88200,43100,61300,122000,168000,Psychology,Economics,Communications,Health Care Administration,Biology
+University of Massachusetts (UMass) - Boston,State,Northeastern,MA,-71.039814,42.31433173,45600,78200,36300,53800,109000,151000,Business Management,Psychology,Biology,Education,Nursing
+University of Massachusetts (UMass) - Dartmouth,State,Northeastern,MA,-71.006837,41.62899868,43200,77700,43300,56200,107000,132000,Nursing,Psychology,Business Management,Accounting,Criminal Justice
+University of Massachusetts (UMass) - Lowell,State,Northeastern,MA,-71.325081,42.65371976,45400,86600,50900,65000,113000,158000,Business Management,Criminal Justice,Information Technology (IT),Psychology,Mechanical Engineering
+University of Memphis (U of M),State,Southern,TN,-89.937883,35.12207587,41400,69700,36100,49100,93500,127000,Nursing,Nutrition,Psychology,Criminal Justice,Accounting
+University of Michigan,State,Midwestern,MI,-83.736564,42.27803,52700,93000,50900,69400,128000,182000,Information Technology (IT),Business Management,Economics,Psychology,Political Science
+University of Minnesota,State,Midwestern,MN,-93.2277,44.974,46200,84200,49000,63200,112000,148000,Psychology,Economics,Biology,Computer Science,Finance
+University of Mississippi,Party,Southern,MS,-89.537169,34.36343843,41400,79700,40400,53500,108000,186000,Nursing,Accounting,Marketing,Finance,Communications
+University of Missouri - Columbia,State,Midwestern,MO,-92.326429,38.941015,41700,81000,43500,57100,111000,156000,Business Management,Journalism,Health Care Administration,Psychology,Biology
+University of Missouri - Kansas City (UMKC),State,Midwestern,MO,-94.5766,39.03372423,38900,65800,36300,48100,95800,124000,Business Management,Nursing,Biology,Psychology,Health Care Administration
+University of Missouri - Rolla (UMR),State,Midwestern,MO,-91.7756,37.9537,57100,95800,67600,80400,122000,166000,Business Management,Journalism,Health Care Administration,Psychology,Biology
+University of Missouri - St. Louis (UMSL),State,Midwestern,MO,-90.308886,38.71129669,41400,67100,36800,49600,97600,144000,Business Management,Nursing,Psychology,Communications,Accounting
+University of Montana,State,Western,MT,-113.9852,46.8601,37300,71900,37000,51500,96400,138000,Business Management,Psychology,Education,Sociology,Anthropology
+University of Nebraska,State,Midwestern,NE,-96.7005,40.8202,45700,80900,42200,56600,113000,156000,Business Management,Psychology,International Relations,Finance,Nutrition
+University of Nebraska at Omaha,State,Midwestern,NE,-96.009741,41.25794626,41500,72600,39500,54400,97400,126000,Criminal Justice,Psychology,Business Management,Accounting,Biology
+"University of Nevada, Las Vegas (UNLV)",State,Western,NV,-115.1432,36.1085,45200,71600,39000,52400,100000,128000,Hospitality & Tourism,Psychology,Criminal Justice,Communications,Nutrition
+"University of Nevada, Reno (UNR)",State,Western,NV,-119.8164,39.5442,46500,82900,41900,54600,113000,143000,Nutrition,Biology,Psychology,Business Management,Criminal Justice
+University of New Hampshire (UNH),Party,Northeastern,NH,-70.937,43.1389,41800,78300,41700,56400,114000,147000,Business Management,Psychology,Communications,Biology,Mechanical Engineering
+University of New Haven,Private,Northeastern,CT,-72.961472,41.29131434,44400,82900,48500,66100,113000,157000,Criminal Justice,Psychology,Biology,Business Management,Communications
+University of New Mexico (UNM),State,Western,NM,-106.6198,35.0843,41600,81600,41800,59100,105000,141000,Business Management,Psychology,Nursing,Biology,Criminal Justice
+University of North Carolina at Chapel Hill (UNCH),State,Southern,NC,-79.050969,35.91216532,42900,81500,43400,57500,117000,155000,Communications,Biology,Psychology,Economics,Political Science
+University of North Carolina at Charlotte (UNCC),State,Southern,NC,-80.73579,35.30683411,43100,74000,38200,53200,99500,133000,Psychology,Communications,Computer Science,Finance,Nursing
+University of North Carolina at Wilmington (UNCW),State,Southern,NC,-77.8696,34.2239,37500,64400,32100,46600,97100,129000,Business Management,Nursing,Psychology,Biology,Communications
+University of North Dakota,State,Midwestern,ND,-97.071738,47.921654,44000,80600,43400,56400,111000,157000,Communications,Psychology,Nursing,Mechanical Engineering,Accounting
+University of Notre Dame,Private,Midwestern,IN,-86.237075,41.699587,56300,116000,66400,85100,163000,235000,Finance,Economics,Mechanical Engineering,Political Science,Math
+University of Oklahoma,State,Southern,OK,-97.4457,35.2059,44700,82900,41200,60300,114000,167000,Finance,Psychology,Accounting,Journalism,Nutrition
+University of Oregon,State,Western,OR,-123.07398,44.044515,42200,78400,38100,56200,117000,186000,Business Management,Sociology,Economics,Psychology,Marketing
+University of Pennsylvania,Ivy League,Northeastern,PA,-75.193618,39.95100193,60900,120000,55900,79200,192000,282000,Finance,Economics,Nursing,Business Management,Philosophy
+University of Puget Sound,Liberal Arts,Western,WA,-122.481199,47.26359389,46600,81500,48900,60100,104000,137000,Business Management,Psychology,Biology,International Relations,Political Science
+University of Rhode Island (URI),State,Northeastern,RI,-71.528708,41.489334,43900,85300,45400,60100,112000,157000,Nursing,Psychology,Communications,Nutrition,Biology
+University of Richmond,Liberal Arts,Southern,VA,-77.538797,37.57739933,48600,94600,44500,59400,151000,211000,Business Management,Biology,Economics,Accounting,Psychology
+University of South Carolina,State,Southern,SC,-81.0299,33.9938,40000,71700,36300,49900,98400,131000,Finance,Marketing,Business Management,Nutrition,MIS
+University of South Florida (USF),State,Southern,FL,-82.4139,28.0587,41100,71100,39600,51500,98100,131000,Health Care Administration,Biology,Nursing,Communications,Psychology
+University of Southern California (USC),Private,California,CA,-118.283858,34.021058,54800,99600,49700,73800,140000,201000,Business Management,Communications,Biology,Accounting,International Relations
+University of Southern Maine,State,Northeastern,ME,-70.276073,43.6622514,39400,63600,40400,47900,85700,117000,Business Management,Psychology,Marketing,Nursing,Finance
+University of Tennessee,Party,Southern,TN,-83.9295,35.9544,43800,74600,41900,53200,106000,153000,Psychology,Nutrition,Biology,Nursing,Marketing
+University of Texas (UT) - Austin,Party,Southern,TX,-97.7341,30.2849,49700,93900,50100,67400,129000,188000,Business Management,Biology,Information Technology (IT),Economics,Psychology
+University of Texas at Arlington (UTA),State,Southern,TX,-97.1121,32.7291,45400,80800,46400,61200,106000,138000,Nursing,Business Management,Biology,Marketing,Nutrition
+University of Texas at El Paso (UTEP),State,Southern,TX,-106.5046,31.7709,43400,72100,37700,50400,99500,133000,Nursing,Criminal Justice,Biology,Psychology,Nutrition
+University of Texas at San Antonio (UTSA),State,Southern,TX,-98.6189,29.5827,42500,70700,39100,49800,92700,121000,Psychology,Biology,Nutrition,Criminal Justice,Communications
+University of Toledo,State,Midwestern,OH,-83.615936,41.6572464,43100,75900,40100,54100,100000,133000,Marketing,Nursing,Mechanical Engineering,Business Management,Finance
+University of Tulsa,Private,Southern,OK,-95.945175,36.15188744,42400,88700,42300,60300,120000,197000,Mechanical Engineering,Finance,Accounting,Business Management,Chemical Engineering
+University of Utah,State,Western,UT,-111.846044,40.76248351,45400,83200,43000,58400,116000,148000,Communications,Psychology,Economics,Business Management,Nutrition
+University of Vermont (UVM),State,Northeastern,VT,-73.198128,44.47926159,44800,82700,44700,58000,122000,194000,Business Management,Psychology,Nursing,Economics,Mechanical Engineering
+University of Virginia (UVA),State,Southern,VA,-78.511845,38.033977,52700,103000,52200,71800,146000,215000,Economics,Business Management,Biology,International Relations,Psychology
+University of Washington (UW),State,Western,WA,-122.310802,47.65577518,48800,85300,47000,59800,115000,149000,Psychology,Communications,Political Science,Finance,Biology
+University of Wisconsin (UW) - Eau Claire,State,Midwestern,WI,-91.500432,44.79843117,41400,64800,35000,47300,93100,125000,Business Management,Nursing,Psychology,Marketing,Nutrition
+University of Wisconsin (UW) - Green Bay,State,Midwestern,WI,-87.920499,44.53110154,35800,60600,35500,46800,81800,102000,Business Management,Biology,Psychology,Nursing,Education
+University of Wisconsin (UW) - La Crosse,State,Midwestern,WI,-91.230125,43.81539006,42200,69300,37500,47200,93100,133000,Biology,Nutrition,Psychology,Finance,Marketing
+University of Wisconsin (UW) - Madison,State,Midwestern,WI,-89.405356,43.07385753,48900,87800,47400,62400,118000,170000,Biology,Economics,Information Technology (IT),Health Care Administration,Psychology
+University of Wisconsin (UW) - Milwaukee,State,Midwestern,WI,-87.880488,43.07684762,42300,74600,40600,54000,93700,123000,Nursing,Marketing,Finance,Communications,Psychology
+University of Wisconsin (UW) - Oshkosh,State,Midwestern,WI,-88.549282,44.02498538,39300,66400,37700,49700,90100,138000,Nursing,Education,Biology,Finance,Psychology
+University of Wisconsin (UW) - Parkside,State,Midwestern,WI,-87.855407,42.64607382,40700,71400,40900,53100,84900,119000,Business Management,Psychology,Criminal Justice,Communications,Nutrition
+University of Wisconsin (UW) - Platteville,State,Midwestern,WI,-90.48792,42.73423024,45800,78500,48400,61200,100000,139000,Mechanical Engineering,Business Management,Criminal Justice,Biology,Agriculture
+University of Wisconsin (UW) - Stevens Point,State,Midwestern,WI,-89.570934,44.529582,39800,64000,38400,45100,95400,128000,Business Management,Biology,Forestry,Psychology,Education
+University of Wisconsin (UW) - Stout,State,Midwestern,WI,-91.925269,44.871765,43600,68300,40900,50600,91600,136000,Business Management,Education,MIS,Hospitality & Tourism,Graphic Design
+University of Wisconsin (UW) - Whitewater,State,Midwestern,WI,-88.742368,42.835563,40800,75500,38200,53500,99300,150000,Finance,Marketing,Communications,Business Management,Accounting
+University of Wyoming (UW),State,Western,WY,-105.57204,41.311943,44500,78700,41500,54000,105000,145000,Nursing,Psychology,Education,MIS,Nutrition
+Ursinus College,Liberal Arts,Northeastern,PA,-75.458029,40.19423605,42100,80000,35600,54300,100000,160000,Biology,Economics,Nutrition,Psychology,Communications
+Utah State University,State,Western,UT,-111.81391,41.740748,43800,78700,41600,55400,101000,132000,Economics,Business Management,Information Technology (IT),Education,Psychology
+Utah Valley State College,State,Western,UT,-111.717058,40.2785117,42400,67100,,44100,84900,,Psychology,Business Management,Communications,Computer Engineering,Accounting
+Vanderbilt University,Private,Southern,TN,-86.804875,36.14442982,51200,104000,49900,68100,147000,222000,Economics,Math,Computer Science,Political Science,Psychology
+Vassar College,Liberal Arts,Northeastern,NY,-73.897581,41.68599708,46000,94600,,60600,123000,,Political Science,Economics,Psychology,Biology,English
+Villanova University,Private,Northeastern,PA,-75.340222,40.03577163,55800,101000,56800,76200,156000,226000,Finance,Nursing,Communications,Economics,MIS
+Virginia Commonwealth University (VCU),State,Southern,VA,-77.453597,37.5476308,42000,68400,37400,51900,100000,123000,Psychology,Business Management,Biology,Education,Communications
+Virginia Polytechnic Institute and State University (Virginia Tech),Engineering,Southern,VA,-80.419988,37.2299064,53500,95400,50600,71400,124000,163000,Mechanical Engineering,MIS,Finance,Nutrition,Information Technology (IT)
+Virginia Wesleyan College (VWC),Private,Southern,VA,-76.18606,36.86841713,34600,54900,,37100,88900,,Business Management,Criminal Justice,Biology,Psychology,Communications
+Washington and Lee University,Liberal Arts,Southern,VA,-79.442869,37.78897441,53600,104000,,82800,146000,,Psychology,Nursing,Sociology,Mechanical Engineering,Accounting
+Washington State University (WSU),State,Western,WA,-117.158168,46.730448,45300,84700,43600,59000,113000,162000,Business Management,Economics,Political Science,Accounting,Math
+Wayne State University,State,Midwestern,MI,-83.072864,42.35861,42800,76100,40100,56200,101000,139000,Psychology,Biology,Business Management,Nursing,Health Care Administration
+Wellesley College,Liberal Arts,Northeastern,MA,-71.306657,42.29374109,42800,83500,,58600,125000,,Economics,Information Technology (IT),Political Science,Biology,Psychology
+Wentworth Institute of Technology,Engineering,Northeastern,MA,-71.094983,42.33663201,53000,96700,55200,74000,117000,153000,Mechanical Engineering,Construction,Architecture,Computer Science,Business Management
+"Wesleyan University (Middletown, Connecticut)",Liberal Arts,Northeastern,CT,-72.656773,41.5568096,46500,97900,42000,62500,126000,215000,Economics,Psychology,English,Political Science,Biology
+West Virginia University (WVU),Party,Southern,WV,-79.953926,39.63468,43100,78100,39700,55700,106000,141000,Journalism,Sociology,Psychology,Nursing,Education
+Western Carolina University,State,Southern,NC,-83.184555,35.30936691,36900,66600,39000,49500,94400,133000,Nursing,Criminal Justice,Business Management,Marketing,Psychology
+Western Michigan University (WMU),State,Midwestern,MI,-85.613482,42.28079931,42300,73800,40100,52500,103000,135000,Marketing,Health Care Administration,Psychology,Nursing,Business Management
+Western Washington University,State,Western,WA,-122.485016,48.73737855,42700,75400,41300,56700,99200,119000,Psychology,Information Technology (IT),Business Management,Communications,Sociology
+Whitman College,Liberal Arts,Western,WA,-118.329714,46.07148757,43500,80100,,64800,111000,,Biology,Political Science,Economics,Psychology,Geology
+Widener University,Private,Northeastern,PA,-75.355216,39.86171641,52900,83400,42600,61400,106000,138000,Nursing,Psychology,Physician Assistant,Business Management,Mechanical Engineering
+Williams College,Liberal Arts,Northeastern,MA,-73.203071,42.7127729,51700,102000,,76400,143000,,Economics,Math,Biology,Political Science,History
+Wittenberg University,Liberal Arts,Midwestern,OH,-83.813911,39.93479432,39200,78200,,54100,131000,,Biology,Psychology,Marketing,Education,Business Management
+Worcester Polytechnic Institute (WPI),Engineering,Northeastern,MA,-71.809765,42.2743459,61000,114000,80000,91200,137000,180000,Mechanical Engineering,Computer Science,Chemical Engineering,Electrical Engineering,Aerospace Engineering
+Yale University,Ivy League,Northeastern,CT,-72.922511,41.31230826,59100,126000,58000,80600,198000,326000,Economics,History,Political Science,Biology,English
