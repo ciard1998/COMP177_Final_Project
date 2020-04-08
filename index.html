@@ -454,7 +454,7 @@
                             .data(keys.slice().reverse())
                           .enter().append("g")
                             .attr("transform", function(d, i) { 
-                                return "translate(0,"+ (300 + i * 20) + ")";
+                                return "translate(0,"+ (300 + i * (0.035*width)) + ")";
                             });
 
                 // Append legend colored squares 
@@ -464,7 +464,7 @@
                     .attr("height", 0.03*width)
                     .attr("fill", z)
                     .attr("stroke", z)
-                    .attr("stroke-width",2);
+                    .attr("stroke-width", 2);
 
                 // Append legend text
                 legend.append("text")
