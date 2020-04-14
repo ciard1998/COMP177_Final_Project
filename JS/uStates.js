@@ -63,8 +63,7 @@
             d3.select("#tooltip")
                 .transition().duration(200)
                 .style("opacity", .9);      
-            d3.select("#tooltip").html(toolTip(d.n 
-                + " Median Mid-Career Salary: $" 
+            d3.select("#tooltip").html(toolTip(d.n + ": $" 
                 + parseInt(d.mean).toLocaleString()))  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");
@@ -81,15 +80,15 @@
         // Function to make the right color projection for a given state's mean
         function get_heat(d){
             if(d.mean < 70000)      // 60,000 - 70,000
-                return heat(0);
+                return heat(4);
             else if(d.mean < 80000) // 70,000 - 80,000
-                return heat(1);
+                return heat(3);
             else if(d.mean < 90000) // 80,000 - 90,000
                 return heat(2);
             else if(d.mean < 100000)// 90,000 - 100,000
-                return heat(3)
+                return heat(1)
             else                    // 100,000 - 110,000
-                return heat(4)
+                return heat(0)
         }
 
         // Pull state Mid-Career Median Salary data and append to uStatePaths
