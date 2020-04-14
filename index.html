@@ -22,14 +22,26 @@
 </h1>
 
 <!-- Viz Subtitle -->
-<h3 style="float:left; width:100%; opacity: 0.75">
+<h3 style="float:left; width:100%; margin-bottom:0; padding-bottom:0; opacity: 0.75">
     Salaries by college, region, and academic major 
 </h3>
 
+<!-- Viz Subtitle II -->
+<h5 style="float:left; width:100%; margin-bottom:0; padding-bottom:0; 
+            opacity: 0.75; margin-top: 2px">
+    ** Monetary figures represent Mid-Career salary values (unless otherwise 
+    stated)
+</h5>
+
 <!-- Map Title -->
-<h3 align="center" style="margin-bottom: 0; padding-bottom: 0" >
-    <u>College and State Salary Map</u> 
-</h3><!-- map title -->
+<h3 align="center" id="map_title" style="margin-bottom: 0; padding-bottom: 0" >
+    <u>Earnings by College and State</u> 
+</h3>
+
+<!-- Map Subtitle -->
+<h5 align="center" style="margin-top: 0; margin-bottom: 0; padding-bottom: 0; opacity:0.5" >
+    Search for or click on a college to display additional information
+</h5>
 
 <div id="school_searchBar"></div> <!-- search bar Viz -->
 <div id="tooltip"></div><!-- tooltip div -->
@@ -48,10 +60,10 @@
     // Heat map color scale projection variable 
     var heat = d3.scale.ordinal()
         .domain([0, 1, 2, 3, 4])
-        .range(["#BB2528", "#EA4630", "#F8B229", "#9ACD32", "#165B33"]);
-    
+        .range(["#0A7B83", "#00C7B7", "#F6D852", "#F9A164","#FB6A75"]);
+
     // Function to draw the map viz to the screen    
-    function draw_map(){
+    function draw_map(selection){
         // SVG object
         var svg = d3.select("#map").append("svg")
                     .attr("id", "mapSVG")
@@ -94,9 +106,20 @@
                 })
                 .attr("cy", function(d){ return d.cy; })
                 .attr("cx", function(d){ return d.cx; }) 
-                .attr("r", 2)
+                .attr("r", function(d){
+                    if(selection && d["School Name"] == selection)
+                        return 4;   // enlarge circle is selection made
+                    else
+                        return 2;   // normal circle size (no selection)
+                })
                 .style("fill", "black")
-                .style("opacity", 1)
+                .style("opacity", function(d){
+                    console.log(selection)
+                    if(selection && d["School Name"] != selection)
+                        return 0.25;    // fade non selected circles
+                    else
+                        return 1;       // no selection or selected circle
+                })
                 .style("cursor", "pointer")
                 .on("mouseover", school_mouseOver)
                 .on("mouseout", mouseOut)
@@ -129,11 +152,11 @@
                 .style("font-weight", "bold")
                 .text(function(d) {
                     switch(d){
-                        case 0: return "$60,000 - $69,999"; break;
-                        case 1: return "$70,000 - $79,999"; break;
+                        case 0: return "$100,000 - $110,000"; break;
+                        case 1: return "$90,000 - $99,999"; break;
                         case 2: return "$80,000 - $89,999"; break;
-                        case 3: return "$90,000 - $99,999"; break;
-                        case 4: return "$100,000 - $110,000"; break;
+                        case 3: return "$70,000 - $79,999"; break;
+                        case 4: return "$60,000 - $69,999"; break;
                     }
                 });
 
@@ -166,18 +189,13 @@
 
     // Function to handle mouseover event for a college
     function school_mouseOver(d){
-        // Pull starting & mid-career median salaries & computer percent change
-        var sms = Number(d["Starting Median Salary"]);
+        // Pull mid-career median salary
         var mcm = Number(d["Mid-Career Median Salary"]);
-        var per_change = (100* (mcm/sms - 1)).toFixed(2);
 
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
         d3.select("#tooltip")
-            .html(tooltipHtml(d["School Name"] + 
-                "<br />Starting Median Salary: $" + sms.toLocaleString() + 
-                "<br />Mid-Career Median Salary: $" + mcm.toLocaleString() + 
-                "<br />Percent Change: " + per_change + "%"))
+            .html(tooltipHtml(d["School Name"] + ": $" + mcm.toLocaleString()))
             .style("left", (d3.event.pageX) + "px")     
             .style("top", (d3.event.pageY - 28) + "px");
     }
@@ -194,9 +212,10 @@
         var mcm = Number(d["Mid-Career Median Salary"]);
         var per_change = (100* (mcm/sms - 1)).toFixed(2);
 
-        // Remove stacked bar chart and grouped bar chart SVGs
+        // Remove map, stacked bar chart, and grouped bar chart SVGs
         d3.select("#chartSVG").remove();
         d3.select("#gbSVG").remove();
+        d3.select("#map").selectAll("*").remove();
 
         // Display selected school heading 
         d3.select("#selected_school")
@@ -210,10 +229,15 @@
         // Show deselect buttons
         d3.selectAll(".deselect").style("display", "inline");
 
+        d3.select("#top5_descrip").html("First 5 majors represent the selected school's 5 most common majors (in order)")
+
         // Reset "Earnings by Major" selection box
         $("#target option:first").prop("selected", true)
-         
-         // Redraw stacked bar chart and grouped bar chart
+        
+        // Redraw map passing in selected school's name
+        draw_map(d["School Name"]);
+
+        // Redraw stacked bar chart and grouped bar chart
         draw_bar([d["1st"], d["2nd"], d["3rd"], d["4th"], d["5th"]]);
         school = [d["School Name"], 
                   d["Starting Median Salary"], 
@@ -223,6 +247,9 @@
                   d["Mid-Career 75th Percentile Salary"], 
                   d["Mid-Career 90th Percentile Salary"]];
         draw_grouped(school);
+        
+        // Scroll down to Selected School Info and other 2 charts
+        document.getElementById("selected_school").scrollIntoView({ behavior: 'smooth'});
     }
     
 </script>
@@ -252,7 +279,7 @@
 </a>
 
 <!-- selected school heading -->
-<h4 style="float:left; width: 60%" align="center" id="selected_school"></h4> 
+<h4 style="float:left; width: 60%" align="center" id="selected_school" href="mypage.html#schoolInfo"></h4> 
 
 <!-- deselect button 2 -->
 <a class="deselect" id="deselect2" onmouseover="button_mouseOver(2)" 
@@ -263,24 +290,38 @@
 <!-- Bar Chart Titles -->
 <div style="clear: both">
     <!-- stacked bar chart viz title -->
-    <h3 style="text-align: left;float: left; margin-left: 45vh;
-                margin-bottom: 0; padding-bottom: 0">
-        <u>Earnings by Major</u></h3> 
+    <h3 style="width:50%; text-align: center;float: left;               margin-bottom: 0; padding-bottom: 0">
+        <u>Earnings by Major</u>
+    </h3> 
+
     <!-- grouped bar chart viz title -->
-    <h3 style="text-align: : right;float: right; 
-                margin-right: 45vh;margin-bottom: 0; padding-bottom: 0">
-        <u>Earnings by Region & Type</u></h3>
+    <h3 style="width:50%; text-align: center; float: right; 
+                margin-bottom: 0; padding-bottom: 0">
+        <u>Earnings by Region & Type</u>
+    </h3>
+
+    <!-- stack bar chart subtitle -->
+    <h5 style="width:50%; text-align:center; float:left; opacity:0.5; 
+                margin-top: 0;"id="top5_descrip">
+        Use the drop-down menu to select sorting preference
+    </h5>
+
+    <!-- grouped bar chart subtitile -->
+    <h5 style="width:50%; text-align:center; float:right; opacity:0.5; 
+                margin-top: 0;" id="group_descrip">
+            Select the corresponding square in the legend to hide/show a certain school type/region
+    </h5>
 </div><br /><br />
 
 <!-- Selection Box for Earnings by Major -->
 <div id="sort" onchange="sortStacked()" style="width:25%;margin-left: 5vh;">
   <select id="target">
     <option selected disabled style="opacity: 0.5">Sort By</option>
-    <option>Mid-Career 90th Percentile</option>
-    <option>Mid-Career 75th Percentile</option>
-    <option>Mid-Career Median</option>
-    <option>Mid-Career 25th Percentile</option>
-    <option>Mid-Career 10th Percentile</option>
+    <option>90th Percentile</option>
+    <option>75th Percentile</option>
+    <option>Median</option>
+    <option>25th Percentile</option>
+    <option>10th Percentile</option>
     <option>Starting Median</option>
   </select>
 </div>
@@ -320,8 +361,7 @@
 
         // Projection to z dimension (Color)
         var z = d3.scaleOrdinal()
-            .range(["#00C7B7", "#F6D852", "#F9A164", "#FB6A75", 
-                    "#2D3B41", "white"]);
+            .range(["#FB6A75", "#F9A164", "#F6D852", "#00C7B7", "#0A7B83"]);
 
         // Read data from CSV
         d3.csv("Data/degrees_processed_data.csv", function(d, i, columns) {
@@ -391,9 +431,9 @@
                     .attr("fill", function(d){ return z(d.key)})
                     .attr("opacity", function(d){
                         if(filter.length == 0 || filter.includes(d.data.Major))
-                            return 1;
+                            return 1;   // highlight top 5 majors/normal view
                         else
-                            return 0.5;
+                            return 0.5; // fade majors outside top 5
                     })
                     .attr("height", y.bandwidth())
                     .on("mouseover", rect_mouseOver)
@@ -414,9 +454,9 @@
                     .attr("r", y.bandwidth()/3)
                     .attr("opacity", function(d){
                         if(filter.length == 0 || filter.includes(d.Major))
-                            return 1;
+                            return 1;   // highlight top 5 majors/normal view
                         else
-                            return 0.5;
+                            return 0.5; // fade majors outside top 5
                     })
                     .style("fill", "black")
                     .on("mouseover", circle_mouseOver)
@@ -448,7 +488,6 @@
                 // Append legend object
                 var legend = g.append("g")
                             .attr("font-family", "sans-serif")
-                            .attr("font-size", 10)
                             .attr("text-anchor", "end")
                           .selectAll("g")
                             .data(keys.slice().reverse())
@@ -459,7 +498,7 @@
 
                 // Append legend colored squares 
                 legend.append("rect")
-                    .attr("x", width + margin.right-0.03*width-10)
+                    .attr("x", width - margin.right*0.4)
                     .attr("width", 0.03*width)
                     .attr("height", 0.03*width)
                     .attr("fill", z)
@@ -468,17 +507,43 @@
 
                 // Append legend text
                 legend.append("text")
-                    .attr("x", width + margin.right-0.04*width-10)
+                    .attr("x", width - margin.right*0.5)
                     .attr("y", 9.5)
                     .attr("dy", "0.32em")
                     .style("font-size", "8px")
                     .style("font-weight", "bold")
                     .text(function(d) { 
                         if(d == "Mid-Career 50th Percentile")
-                            return "Mid-Career Median";
+                            return "Median";
                         else
-                            return d; 
+                            return d.replace("Mid-Career", ""); 
                     });
+
+                g.append("circle")
+                    .attr("cx", width - margin.right*0.4 + (0.03*width)/2)
+                    .attr("cy", 9.5)
+                    .attr("r", 0.02*width/2)
+                    .attr("fill", "black")
+                    .attr("stroke", "black")
+                    .attr("stroke-width", 2)
+                    .attr("transform", function(d, i) { 
+                        return "translate(0,"+ (300 + 5 * (0.035*width)) + ")";
+                    });
+
+                g.append("text")
+                    .attr("x", width - margin.right*0.5)
+                    .attr("y", 9.5)
+                    .attr("font-family", "sans-serif")
+                    .attr("dy", "0.32em")
+                    .attr("text-anchor", "end")
+                    .attr("font-size", "8px")
+                    .attr("font-weight", "bold")
+                    .text("Starting Median")
+                    .attr("transform", function(d, i) { 
+                        return "translate(0,"+ (300 + 5 * (0.035*width)) + ")";
+                    });
+
+               
             }
         )
     }
@@ -502,6 +567,8 @@
 
         // Pull sorting metric and height values
         var cat = $("#sort option:selected").text();
+        if(!cat.includes("Starting"))
+            cat = "Mid-Career " + cat;
         var h = $("#chartSVG").attr("height");
 
         // Read in the data and transition the stacked bar chart
@@ -561,13 +628,9 @@
         if(major == "MIS")
             major = "Management Information Systems (MIS)";
 
-        // Rename 50th Percentile to Median
-        var group = d.key;
-        if(group == "Mid-Career 50th Percentile") group = "Mid-Career Median";
-
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
-        d3.select("#tooltip").html(tooltipHtml(major + " " + group + ": $" 
+        d3.select("#tooltip").html(tooltipHtml(major + ": $" 
             + d[1].toLocaleString())) 
           .style("left", (d3.event.pageX) + "px")     
           .style("top", (d3.event.pageY - 28) + "px");
@@ -582,8 +645,7 @@
 
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
-        d3.select("#tooltip").html(tooltipHtml(major 
-            + " Starting Median Salary: $" 
+        d3.select("#tooltip").html(tooltipHtml(major + ": $" 
             + Math.round(d["Starting Median Salary"]).toLocaleString()))
           .style("left", (d3.event.pageX) + "px")     
           .style("top", (d3.event.pageY - 28) + "px");
@@ -624,18 +686,26 @@
     // Reset viz when you click a deselect button   
     function deselect(){
         d3.select("#selected_school").text("");
+        d3.select("#top5_descrip")
+            .html("Use the drop-down menu to select sorting preference");
         $('#school_searchBar').select2("val", ""); // Clear Search Bar
 
-        // Clear stacked and grouped bar charts
+        // Clear map, stacked, and grouped bar charts
         d3.select("#chartSVG").remove();
         d3.select("#gbSVG").remove();
+        d3.select("#map").selectAll("*").remove();
 
-        // Redraw stacked and grouped bar charts
+        // Redraw map, stacked, and grouped bar charts
+        draw_map();
         draw_bar([]);
         draw_grouped();
 
         // Hide the deselect buttons 
         d3.selectAll(".deselect").style("display", "none");
+
+        // Scroll up to search bar and map
+        document.getElementById("school_searchBar")
+                .scrollIntoView({ behavior: 'smooth'});
     }
 
 </script>
@@ -719,7 +789,7 @@
             var color_scale = ["#FFD08E", "#FFA874", "#FA7C5A", "#E3534C", 
                                 "#A8234C", "#681740"];
             if(school) // If school selected, push another color to scale 
-                color_scale.push("#3E0E26");
+                color_scale.push("#00C7B7");
 
             // Projection to z dimension (Color)
             var z = d3.scaleOrdinal().range(color_scale);
@@ -760,7 +830,7 @@
             var color_scale = ["#00DDF9", "#00ABE7", "#0087CA", "#00639B", 
                                 "#003B64"];
             if(school) // If school selected, push another color to scale 
-                color_scale.push("#001932");
+                color_scale.push("#00C7B7");
             
             // Projection to z dimension (Color)
             var z = d3.scaleOrdinal().range(color_scale);
@@ -786,13 +856,9 @@
 
     // Function to react to mouseover on bar object in grouped bar chart
     function bar_mouseOver(d){
-        // Pull bar group name and replace shorthand abbr for full version
-        var group = d.group.replace("MC", "Mid-Career")
-                            .replace("th", "th Percentile");
-
         // Display tooltip
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
-        d3.select("#tooltip").html(tooltipHtml(d.key + " " + group + ": $" 
+        d3.select("#tooltip").html(tooltipHtml(d.key + " : $" 
             + Math.round(d.value).toLocaleString()))  
           .style("left", (d3.event.pageX) + "px")     
           .style("top", (d3.event.pageY - 28) + "px");
