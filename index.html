@@ -83,9 +83,11 @@
         // Read data fromm CSV for map viz
         d3.csv("Data/master_data.csv", function(data){
             // Pull search bar keys and data
-            for(var i = 0; i < data.length; i++){
-                searchBar_keys.push({id:i, text:data[i]["School Name"]});
-                searchBar_data.push(data[i]);
+            if(searchBar_keys.length == 0){
+                for(var i = 0; i < data.length; i++){
+                    searchBar_keys.push({id:i, text:data[i]["School Name"]});
+                    searchBar_data.push(data[i]);
+                }
             }
 
             // Draw college circles on map SVG
