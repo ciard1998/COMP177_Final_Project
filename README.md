@@ -1,4 +1,4 @@
-# COMP177_Final_Project
+# COMP177 Final Project
 Repository for COMP 177 Visualization Final Project
 
 Link to Final Project Video:
